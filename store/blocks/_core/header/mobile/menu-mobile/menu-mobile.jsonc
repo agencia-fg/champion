@@ -1,0 +1,26 @@
+{
+  "drawer#menu-mobile": {
+    "children": [
+      "flex-layout.row#header-controls-mobile",
+      "flex-layout.row#menu"
+    ],
+    "props": {
+      "blockClass": "menu-mobile",
+      "orientation": "vertical"
+    }
+  },
+
+  "flex-layout.row#header-controls-mobile": {
+    "children": ["login", "vtex.menu@2.x:menu#wishlist--label"],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "border": "bottom",
+      "borderColor": "muted-3",
+      "paddingTop": 4,
+      "paddingBottom": 4,
+      "marginBottom": 5,
+      "preventHorizontalStretch": true,
+      "blockClass": ["header-controls-mobile", "menu-drawer-item"]
+    }
+  }
+}

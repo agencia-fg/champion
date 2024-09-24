@@ -1,0 +1,15 @@
+.flexRowContent--contato-fields :global(.vtex-textarea__input) {
+  height: 150px;
+  padding: 1rem;
+}
+.flexRowContent--contato-fields :global(.vtex-input__label),
+.flexRowContent--contato-fields :global(.vtex-textarea__input),
+.flexRowContent--contato-fields :global(.vtex-textarea__label) {
+  text-transform: none;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+
+.flexRow--contato-form :global(.vtex-rich-text-0-x-headingLevel4) {
+  text-transform: uppercase;
+}

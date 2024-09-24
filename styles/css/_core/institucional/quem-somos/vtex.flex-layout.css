@@ -1,0 +1,4 @@
+.flexRow--institucional-content--quem-somos
+  :global(.vtex-store-components-3-x-container) {
+  max-width: var(--wrapper);
+}

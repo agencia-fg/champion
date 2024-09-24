@@ -1,0 +1,20 @@
+.flexRow--minicartItem:last-child .flexRowContent--minicartItem {
+  border-bottom: 0;
+}
+
+.flexRowContent--minicartItem {
+  border-bottom: 1px solid #f2f0f7;
+}
+
+.flexRowContent--minicartItem-bottom {
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flexCol--minicartItem-content {
+  justify-content: space-around;
+}
+
+.flexRowContent--minicartItem-name {
+  justify-content: space-between;
+}

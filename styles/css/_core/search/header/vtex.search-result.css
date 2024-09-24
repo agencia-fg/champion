@@ -1,0 +1,12 @@
+.galleryTitle--layout {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: normal;
+  letter-spacing: var(--categoryTitleLetterSpacing);
+  font-family: var(--ShelfTitleFontFamily);
+}
+@media (min-width: 768px) {
+  .galleryTitle--layout {
+    font-size: 2rem;
+  }
+}

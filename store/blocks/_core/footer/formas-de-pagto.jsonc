@@ -1,0 +1,58 @@
+{
+  "flex-layout.col#formas-de-pagto": {
+    "title": "Formas de Pagamento",
+    "children": ["flex-layout.row#formas-de-pagto"]
+  },
+  "flex-layout.row#formas-de-pagto": {
+    "title": "Formas de Pagamento",
+    "children": [
+      "flex-layout.col#formas-de-pagto-title",
+      "flex-layout.col#ormas-de-pagto-bandeiras"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": ["formas-de-pagto"]
+    }
+  },
+  "flex-layout.col#ormas-de-pagto-bandeiras": {
+    "children": ["flex-layout.row#formas-de-pagto-bandeiras"],
+    "props": {
+      "horizontalAlign": { "mobile": "center", "desktop": "left" },
+      "rowGap": 5,
+      "blockClass": ["formas-de-pagto"]
+    }
+  },
+
+  "flex-layout.row#formas-de-pagto-bandeiras": {
+    "title": "Bandeiras de pagamento",
+    "children": ["list-context.image-list#formas-de-pagto-bandeiras"],
+    "props": {
+      "blockClass": ["formas-de-pagto-bandeiras"]
+    }
+  },
+
+  "flex-layout.col#formas-de-pagto-title": {
+    "children": ["rich-text#formas-de-pagto"],
+    "props": {
+      "horizontalAlign": { "mobile": "center", "desktop": "left" },
+      "verticalAlign": "middle",
+      "blockClass": ["formas-de-pagto-title"]
+    }
+  },
+  "rich-text#formas-de-pagto": {
+    "props": {
+      "blockClass": ["footer-title-2"],
+      "textColor": "c-on-muted-3",
+      "font": "t-mini",
+      "text": "Formas de pagamento"
+    }
+  },
+
+  "list-context-renderer#formas-de-pagto-bandeiras": {
+    "props": {
+      "blockClass": ["formas-de-pagto-bandeiras"],
+      "listElement": "div",
+      "itemElement": "div"
+    }
+  }
+}

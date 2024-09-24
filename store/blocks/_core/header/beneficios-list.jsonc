@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#beneficios": {
+    "title": "Benefícios",
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["beneficios", "bg-light-gray"],
+      "paddingTop": 6,
+      "paddingBottom": 6
+    },
+    "children": ["list-context.tipbar#beneficios"]
+  },
+
+  "slider-layout#beneficios": {
+    "props": {
+      "blockClass": ["beneficios"],
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left"
+      }
+    }
+  }
+}

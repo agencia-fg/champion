@@ -1,0 +1,40 @@
+{
+  "list-context.banners#slider-compre-por-categoria": {
+    "children": ["slider-layout#slider-compre-por-categoria"],
+    "props": {
+      "blockClass": "compre-por-categoria",
+      "items": [
+        {
+          "image": "https://picsum.photos/id/54/230/240",
+          "title": "Camiseta",
+          "link": "/camiseta"
+        },
+        {
+          "image": "https://picsum.photos/id/54/230/240",
+          "title": "Camiseta",
+          "link": "/camiseta"
+        },
+        {
+          "image": "https://picsum.photos/id/54/230/240",
+          "title": "Camiseta",
+          "link": "/camiseta"
+        },
+        {
+          "image": "https://picsum.photos/id/54/230/240",
+          "title": "Camiseta",
+          "link": "/camiseta"
+        },
+        {
+          "image": "https://picsum.photos/id/54/230/240",
+          "title": "Camiseta",
+          "link": "/camiseta"
+        },
+        {
+          "image": "https://picsum.photos/id/54/230/240",
+          "title": "Camiseta",
+          "link": "/camiseta"
+        }
+      ]
+    }
+  }
+}

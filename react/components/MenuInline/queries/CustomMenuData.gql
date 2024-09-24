@@ -1,0 +1,21 @@
+query {
+  categories {
+    id
+    name
+    href
+    slug
+    hasChildren
+    children {
+      id
+      name
+      href
+      slug
+      children {
+        id
+        name
+        href
+        slug
+      }
+    }
+  }
+}

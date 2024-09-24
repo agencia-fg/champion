@@ -1,0 +1,42 @@
+{
+  "flex-layout.col#newsletter-social": {
+    "children": [
+      "flex-layout.row#footer-newsletter",
+      "flex-layout.row#footer-social"
+    ],
+    "props": {
+      "blockClass": ["newsletter-social"],
+      "preventVerticalStretch": true,
+      "rowGap": 3,
+      "width": "33%"
+    }
+  },
+
+  "flex-layout.row#footer-social": {
+    "children": ["flex-layout.col#footer-social"],
+    "props": {
+      "blockClass": ["footer-social"],
+      "marginTop": {
+        "mobile": 4,
+        "desktop": 0
+      },
+      "marginBottom": {
+        "mobile": 5,
+        "desktop": 0
+      }
+    }
+  },
+  "flex-layout.col#footer-social": {
+    "children": ["vtex.menu@2.x:menu#social"],
+    "props": {
+      "paddingLeft": {
+        "mobile": 4,
+        "desktop": 0
+      },
+      "paddingRight": {
+        "mobile": 4,
+        "desktop": 0
+      }
+    }
+  }
+}

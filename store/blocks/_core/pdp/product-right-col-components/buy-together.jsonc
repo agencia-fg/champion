@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#buy-together": {
+    "title": "Compre Junto",
+    "children": ["custom-buy-together"],
+    "props": {
+      "marginTop": 10,
+      "blockClass": ["buy-together"]
+    }
+  },
+
+  "rich-text#buy-together-title": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["shelfTitle"],
+      "text": "## Aproveite e Compre junto"
+    }
+  },
+  "custom-buy-together": {
+    "blocks": [
+      "product-summary.shelf#buy-together",
+      "rich-text#buy-together-title"
+    ]
+  }
+}

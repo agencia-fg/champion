@@ -1,0 +1,22 @@
+{
+  "flex-layout.row#footer-selos": {
+    "title": "Selos",
+    "children": [
+      "flex-layout.col#formas-de-pagto",
+      "flex-layout.col#selos-seguranca"
+    ],
+    "props": {
+      "blockClass": ["footer-main-2"],
+      "colGap": 6,
+      "rowGap": 6,
+      "paddingTop": {
+        "mobile": 7,
+        "desktop": 8
+      },
+      "paddingBottom": {
+        "mobile": 7,
+        "desktop": 8
+      }
+    }
+  }
+}

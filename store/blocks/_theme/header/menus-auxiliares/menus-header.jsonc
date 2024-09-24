@@ -1,0 +1,44 @@
+{
+  "vtex.menu@2.x:menu#menuHeader-1": {
+    "title": "Menu Topo 1",
+    "props": {
+      "blockClass": ["eyebrowMenu"],
+      "orientation": "horizontal",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/contato",
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        }
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#menuHeader-2": {
+    "title": "Menu Topo 2",
+    "props": {
+      "blockClass": ["eyebrowMenu"],
+      "orientation": "horizontal",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/contato",
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/account#/orders",
+            "tagTitle": "Meus Pedidos",
+            "text": "Meus Pedidos"
+          }
+        }
+      ]
+    }
+  }
+}

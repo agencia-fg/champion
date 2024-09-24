@@ -1,0 +1,19 @@
+.item--home-banners {
+  margin-bottom: 12px;
+}
+
+@media (min-width: 48em) {
+  .list--home-banners {
+    display: grid;
+    column-gap: 1rem;
+  }
+  .list--home-banners-1 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .list--home-banners-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .list--home-banners-3 {
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+}

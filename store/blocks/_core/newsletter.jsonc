@@ -1,0 +1,103 @@
+{
+  "flex-layout.row#footer-newsletter": {
+    "title": "Newsletter",
+    "children": ["flex-layout.col#footer-newsletter"],
+    "props": {
+      "colGap": 6,
+      "blockClass": ["newsletter"]
+    }
+  },
+  "flex-layout.col#footer-newsletter": {
+    "children": [
+      "rich-text#newsletter-title",
+      "flex-layout.row#newsletter-headline",
+      "flex-layout.row#newsletter-form"
+    ],
+    "props": {
+      "paddingLeft": {
+        "mobile": 3,
+        "desktop": 0
+      },
+      "paddingRight": {
+        "mobile": 3,
+        "desktop": 0
+      }
+    }
+  },
+  "flex-layout.col#newsletter-text": {
+    "children": []
+  },
+
+  "rich-text#newsletter-title": {
+    "title": "Título principal",
+    "props": {
+      "text": "## Newsletter",
+      "blockClass": ["newsletterTitle"]
+    }
+  },
+  "flex-layout.row#newsletter-headline": {
+    "children": ["rich-text#newsletter-headline"],
+    "props": {
+      "marginTop": 3,
+      "marginBottom": 2
+    }
+  },
+  "rich-text#newsletter-headline": {
+    "title": "Chamada",
+    "props": {
+      "blockClass": ["newsletter-headline"],
+      "font": "t-small",
+      "text": "Receba novidades exclusivas"
+    }
+  },
+  "flex-layout.row#newsletter-form": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": ["newsletterForm", "form"]
+    },
+    "children": ["form#newsletter"]
+  },
+  "rich-text#newsletter-flag": {
+    "props": {
+      "font": "t-body",
+      "text": "Newsletter aqui",
+      "textAlignment": "CENTER",
+      "textColor": "c-on-base",
+      "textPosition": "CENTER"
+    }
+  },
+  "form#newsletter": {
+    "props": {
+      "entity": "NL",
+      "schema": "newsletter",
+      "blockClass": "newsletterForm"
+    },
+    "children": ["form-input.text#newsletter-email", "form-submit"],
+    "blocks": ["form-success#newsletter"]
+  },
+  "form-input.text#newsletter-email": {
+    "props": {
+      "label": "",
+      "placeholder": "Insira seu e-mail",
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-success#newsletter": {
+    "children": [
+      "rich-text#newsletter-success-title",
+      "rich-text#newsletter-success"
+    ]
+  },
+  "rich-text#newsletter-success-title": {
+    "title": "Título da Mensagem de sucesso",
+    "props": {
+      "text": "### Obrigado!"
+    }
+  },
+  "rich-text#newsletter-success": {
+    "title": "Mensagem de sucesso",
+    "props": {
+      "text": "E-mail cadastrado!"
+    }
+  }
+}

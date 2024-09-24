@@ -1,0 +1,21 @@
+.slide--tip-bar {
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+  opacity: 1;
+  transition: opacity 0.25s;
+}
+.slide--tip-bar--hidden {
+  opacity: 0;
+}
+
+.paragraph--tip-bar {
+  font-size: 0.75rem;
+}
+
+.strong--tip-bar {
+  color: var(--primary);
+}
+
+.container--tip-bar {
+  color: inherit;
+}

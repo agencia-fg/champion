@@ -1,0 +1,84 @@
+{
+  "store.not-found#search": {
+    "blocks": ["flex-layout.row#page-not-found"]
+  },
+  "flex-layout.row#page-not-found": {
+    "children": [
+      "flex-layout.col#page-not-found-icon",
+      "flex-layout.col#page-not-found"
+    ],
+    "props": {
+      "marginTop": 10,
+      "marginBottom": 10,
+      "colGap": 8,
+      "rowGap": 9,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#page-not-found-icon": {
+    "children": ["image#page-not-found-icon"],
+    "props": {
+      "horizontalAlign": {
+        "desktop": "left",
+        "mobile": "center"
+      },
+      "blockClass": ["page-not-found-icon"]
+    }
+  },
+
+  "image#page-not-found-icon": {
+    "title": "Icone",
+    "props": {
+      "src": "assets/page-not-found-icon.svg",
+      "height": 160,
+      "alt": "Página não encontrada!",
+      "title": "Página não encontrada!"
+    }
+  },
+  "flex-layout.col#page-not-found": {
+    "props": {
+      "rowGap": 2,
+      "horizontalAlign": {
+        "desktop": "left",
+        "mobile": "center"
+      }
+    },
+    "children": [
+      "rich-text#page-not-found-title",
+      "rich-text#page-not-found-text",
+      "flex-layout.row#page-not-found-link"
+    ]
+  },
+  "rich-text#page-not-found-title": {
+    "props": {
+      "text": "Página não encontrada!",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#page-not-found-text": {
+    "props": {
+      "text": "A página que você procura não existe ou não está disponiível. \n\n\n\n Causas possíveis:\n\n - O conteúdo não está mais no ar;\n - A página mudou de lugar;\n - O servidor está fora do ar;\n - Você digitou o endereço errado.",
+      "font": "body",
+      "blockClass": "not-found-text"
+    }
+  },
+
+  "flex-layout.row#page-not-found-link": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "marginTop": 6,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["link.product#not-found"]
+  },
+  "link.product#not-found": {
+    "props": {
+      "href": "/",
+      "label": "Ir para a home",
+      "displayMode": "button",
+      "blockClass": "button--large"
+    }
+  }
+}

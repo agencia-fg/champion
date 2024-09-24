@@ -1,0 +1,10 @@
+.container {
+  border-color: #e0e0e0;
+}
+.container :global(.vtex-button) {
+  width: 120px;
+  height: 40px;
+}
+.container :global(.vtex-styleguide-9-x-input) {
+  background: #f5f5f5;
+}

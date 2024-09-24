@@ -1,0 +1,48 @@
+.orderByButton,
+.orderByOptionsContainer {
+  border: 1px solid var(--border--muted-3);
+  border-radius: 0;
+}
+.orderByButton .filterPopupTitle {
+  letter-spacing: 0.03em;
+}
+
+:global(.vtex-flex-layout-0-x-flexRow--search-controls-desktop) .orderByButton {
+  width: 190px;
+  padding: 0.75rem 1rem;
+  justify-content: space-between;
+}
+:global(.vtex-flex-layout-0-x-flexRow--search-controls-mobile) .orderByButton {
+  border: 0;
+  padding: 0;
+}
+
+.orderByText {
+  color: var(--text);
+}
+:global(.vtex-flex-layout-0-x-flexRow--search-controls-desktop) .orderByText {
+  display: none;
+}
+:global(.vtex-flex-layout-0-x-flexRow--search-controls-mobile) .orderByText {
+  font-weight: bold;
+}
+
+.orderByOptionsContainer {
+  box-shadow: none;
+  overflow: hidden;
+  right: 0;
+}
+.orderByButton .filterPopupTitle,
+.orderByOptionItem {
+  font-size: 0.875rem;
+}
+.orderByOptionItem {
+  background: transparent;
+}
+.orderByOptionItem--selected {
+  font-weight: bold;
+}
+
+.filterPopupArrowIcon {
+  padding-right: 0;
+}

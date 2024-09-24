@@ -1,0 +1,59 @@
+{
+  "vtex.menu@2.x:menu#footer-links-3": {
+    "title": "Ajuda e Suporte",
+    "props": {
+      "blockClass": ["footerMenu"],
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/contato",
+            "tagTitle": "Fale Conosco",
+            "text": "Fale Conosco"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/faq",
+            "tagTitle": "FAQ - Dúvidas Frequentes",
+            "text": "FAQ - Dúvidas Frequentes"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/trocas-e-devolucoes",
+            "tagTitle": "Trocas e Devoluções",
+            "text": "Trocas e Devoluções"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/entregas-e-fretes",
+            "tagTitle": "Entregas e Fretes",
+            "text": "Entregas e Fretes"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/como-comprar",
+            "tagTitle": "Como Comprar",
+            "text": "Como Comprar"
+          }
+        }
+      ]
+    },
+    "children": ["rich-text#menu-footer-3-title"]
+  },
+  "rich-text#menu-footer-3-title": {
+    "title": "Título",
+    "props": {
+      "text": "### Ajuda e Suporte",
+      "blockClass": ["footer-menu-title"]
+    }
+  }
+}

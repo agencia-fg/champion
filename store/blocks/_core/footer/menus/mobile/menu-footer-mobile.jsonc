@@ -1,0 +1,84 @@
+{
+  "disclosure-layout-group#footer-menu-mobile": {
+    "props": {
+      "maxVisible": "one"
+    },
+    "children": [
+      "disclosure-layout#footer-menu-1",
+      "disclosure-layout#footer-menu-2",
+      "disclosure-layout#footer-menu-3"
+    ]
+  },
+  "disclosure-layout#footer-menu-1": {
+    "children": [
+      "disclosure-trigger#menu-mobile-1",
+      "disclosure-content#menu-mobile-1"
+    ]
+  },
+  "disclosure-trigger#menu-mobile-1": {
+    "props": {
+      "as": "div",
+      "blockClass": ["footerMenu"]
+    },
+    "children": ["rich-text#menu-footer-1-title", "disclosure-state-indicator"]
+  },
+  "disclosure-content#menu-mobile-1": {
+    "props": {
+      "blockClass": ["footerMenu"]
+    },
+    "children": ["vtex.menu@2.x:menu#footer-links-1"]
+  },
+
+  "disclosure-layout#footer-menu-2": {
+    "children": [
+      "disclosure-trigger#menu-mobile-2",
+      "disclosure-content#menu-mobile-2"
+    ]
+  },
+  "disclosure-trigger#menu-mobile-2": {
+    "props": {
+      "as": "div",
+      "blockClass": ["footerMenu"]
+    },
+    "children": ["rich-text#menu-footer-2-title", "disclosure-state-indicator"]
+  },
+  "disclosure-content#menu-mobile-2": {
+    "props": {
+      "blockClass": ["footerMenu"]
+    },
+    "children": ["vtex.menu@2.x:menu#footer-links-2"]
+  },
+
+  "disclosure-layout#footer-menu-3": {
+    "children": [
+      "disclosure-trigger#menu-mobile-3",
+      "disclosure-content#menu-mobile-3"
+    ]
+  },
+  "disclosure-trigger#menu-mobile-3": {
+    "props": {
+      "as": "div",
+      "blockClass": ["footerMenu"]
+    },
+    "children": ["rich-text#menu-footer-3-title", "disclosure-state-indicator"]
+  },
+  "disclosure-content#menu-mobile-3": {
+    "props": {
+      "blockClass": ["footerMenu"]
+    },
+    "children": ["vtex.menu@2.x:menu#footer-links-3"]
+  },
+
+  "disclosure-state-indicator": {
+    "props": {
+      "Show": "icon-plus",
+      "Hide": "icon-minus"
+    }
+  },
+  "icon-caret": {
+    "props": {
+      "size": 10,
+      "orientation": "down"
+    }
+  }
+}

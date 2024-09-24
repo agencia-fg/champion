@@ -1,0 +1,12 @@
+.paginationDotsContainer--main-banner {
+  bottom: 1rem;
+}
+
+.sliderArrows.sliderArrows--main-banner {
+  margin: auto 5%;
+}
+@media (min-width: 1250px) {
+  .sliderArrows.sliderArrows--main-banner {
+    margin: 0 calc((100vw + 20px - var(--wrapper)) / 2);
+  }
+}

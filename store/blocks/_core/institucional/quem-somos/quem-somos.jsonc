@@ -1,0 +1,38 @@
+{
+  "store.custom#quem-somos": {
+    "blocks": ["flex-layout.row#institucional-content-quem-somos"]
+  },
+
+  "flex-layout.row#institucional-content-quem-somos": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": [
+        "institucional-content",
+        "institucional-content--quem-somos"
+      ],
+      "marginTop": 8,
+      "marginBottom": 8,
+      "colGap": 8,
+      "rowGap": 8
+    },
+    "children": [
+      "flex-layout.col#institucional-quem-somos-image",
+      "flex-layout.col#institucional-content"
+    ]
+  },
+  "flex-layout.col#institucional-quem-somos-image": {
+    "children": ["image#institucional-quem-somos-image"],
+    "props": {
+      "width": "30%",
+      "blockClass": ["institucional-quem-somos-image"]
+    }
+  },
+  "image#institucional-quem-somos-image": {
+    "title": "Imagem principal",
+    "props": {
+      "src": "https://picsum.photos/id/29/360/360",
+      "alt": "Quem Somos",
+      "title": "Quem Somos"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.listItem--not-found-text {
+  display: block;
+}
+.listItem--not-found-text::before {
+  content: '-';
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.container--not-found-text,
+.listItem--not-found-text {
+  padding-top: 0.5rem;
+}
+
+.paragraph--not-found-text {
+  margin-bottom: 0.5rem;
+}

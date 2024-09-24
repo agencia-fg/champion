@@ -1,0 +1,118 @@
+:local(:root) {
+  /* Grid */
+
+  --wrapper: 1260px;
+  --wrapperSmall: 824px;
+
+  /* Cores */
+  --primary: #e61937;
+  --primary--hover: #ff364b;
+  --primary--muted: #eee;
+  --secondary: #232d64;
+  --secondary--hover: #1a214b;
+  --text: #0d0d0d;
+  --text--on-primary: #fff;
+  --text--muted: #979899;
+  --background: #fff;
+  --lightGray: #f4f4f4;
+  --mediumGray: #d1d1d1;
+  --darkGray: #0d0d0d;
+
+  --stars: #404040;
+
+  --border--muted-3: #e0e0e0;
+
+  --borderRadius: 0;
+  --borderRadius--large: 0;
+  --inputBorderRadius: 0;
+
+  --gradient: linear-gradient(#000 0%, rgba(0, 0, 0, 0) 100%);
+  --gradientToBottom: linear-gradient(rgba(0, 0, 0, 0) 0%, #000 100%);
+
+  --easeOut: cubic-bezier(0, 0.55, 0.45, 1);
+  --easeIn: cubic-bezier(0.12, 0, 0.39, 0);
+
+  /* Buttons */
+  --buttonLetterSpacing: 0.1em;
+
+  /* Pdp */
+  --productNamePdpLetterSpacing: 0.05em;
+
+  /* Header */
+  --headerBackground: var(--secondary);
+  --iconHeaderColor: #fff;
+  --headerColor: #fff;
+  --iconHeaderColorHover: #fff;
+  --headerBorder: none;
+
+  /* Barra de frete (eyebrow) */
+  --barraFreteBackground: var(--headerBackground);
+  --barraFreteColor: var(--headerColor);
+
+  /* Menu Principal */
+  --inlineMenuGapX: 2.4rem;
+
+  /* Slider */
+  --sliderArrowBackground: #fff;
+  --sliderArrowColor: var(--text);
+  --sliderArrowBorder: none;
+
+  /* Footer */
+  --footerMenuLetterSpacing: 0.03em;
+  --footerMainBackground: #e5e7f2;
+  --footerMainTitleColor: var(--secondary);
+  --footerMainColor: var(--text);
+
+  /* Institucionais */
+  --institucional--linkColor: blue;
+  --institucional--linkDecoration: underline;
+  --institucional--linkFontWeight: inherit;
+
+  /* Category */
+  --filterTagBorderRadius: 999px;
+  --categoryTitleLetterSpacing: 0.05em;
+  --categoryHeaderBackground: #f5f5f5;
+
+  /* Search Bar */
+  --searchBarMinWidth: 150;
+
+  /* Menu */
+  --AllDepartmentsColWidthDesktop: 224px;
+  /* Menu -- Level 1 */
+  --MenuLevel1Color: inherit;
+  --MenuLevel1FontSize: 0.85rem;
+  --MenuLevel1FontWeight: 300;
+  --MenuLevel1LetterSpacing: 0.15rem;
+  --MenuLevel1HoverTextDecoration: initial;
+  --MenuLevel1HoverOpacity: initial;
+  --MenuLevel1HoverColor: initial;
+  /* Menu -- Level 2*/
+  --MenuLevel2TitleColor: var(--primary);
+  --MenuLevel2TitleFontWeight: 700;
+  --MenuLevel2TitleFontSize: 1rem;
+  --MenuLevel2TitleLetterSpacing: 0.05rem;
+  --MenuLevel2TitleHoverTextDecoration: underline;
+  --MenuLevel2TitleHoverOpacity: 0.55;
+  --MenuLevel2TitleHoverColor: var(--primary);
+  /* Menu -- Level 3*/
+  --MenuLevel3Color: inherit;
+  --MenuLevel3FontSize: 0.75rem;
+  --MenuLevel3LetterSpacing: 0.05rem;
+  --MenuLevel3HoverTextDecoration: initial;
+  --MenuLevel3HoverOpacity: initial;
+  --MenuLevel3HoverColor: var(--primary);
+  /* Menu -- All Departments */
+  --AllDepartmentsContentBackground: var(--lightGray);
+
+  /* Shelf */
+  --ShelfTitleColor: var(--text);
+  --ShelfTitleFontFamily: 'SecondaryFont', sans-serif;
+  --ShelfTitleFontSizeMobile: 1.5rem;
+  --ShelfTitleFontSizeDesktop: 2rem;
+  --ShelfTitleFontWeight: 400;
+  --ShelfTitleLetterSpacing: 0.02em;
+  --ShelfTitleTextTransform: uppercase;
+
+  /* Outros */
+  --backdropColor: #000;
+}

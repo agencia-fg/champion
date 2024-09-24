@@ -1,0 +1,20 @@
+.productBrandName {
+  display: none;
+}
+
+.productImageContainer {
+  width: 80px;
+  height: 80px;
+  border: 1px solid var(--border--muted-3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.productImageAnchor {
+  display: block;
+}
+
+.productImage {
+  display: block;
+}

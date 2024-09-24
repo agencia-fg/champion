@@ -1,0 +1,12 @@
+{
+  "list-context.tipbar": {
+    "children": ["slider-layout#tip-bar"],
+    "props": {
+      "items": [
+        {
+          "text": "**FRETE GRATIS** em compras acima de R$199! Aproveite"
+        }
+      ]
+    }
+  }
+}

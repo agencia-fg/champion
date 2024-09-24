@@ -1,0 +1,17 @@
+.slideChildrenContainer--beneficios {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+
+.imageElement--beneficios {
+  max-height: 40px;
+  height: auto;
+  max-width: none;
+  margin-right: 0.5rem;
+}
+
+.headingLevel4--beneficios,
+.paragraph--beneficios {
+  font-size: 0.875rem;
+}

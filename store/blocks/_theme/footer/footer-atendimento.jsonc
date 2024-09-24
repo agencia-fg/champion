@@ -1,0 +1,125 @@
+{
+  "flex-layout.row#footer-atendimento": {
+    "props": {
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "rowGap": 5,
+      "colSizing": "auto",
+      "blockClass": ["footer-atendimento"]
+    },
+    "children": [
+      "flex-layout.col#footer-atendimento-title",
+      "flex-layout.col#footer-atendimento-horario"
+    ]
+  },
+
+  "flex-layout.col#footer-atendimento-title": {
+    "children": ["flex-layout.row#footer-atendimento-1"],
+    "props": {
+      "width": "50%",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.row#footer-atendimento-1": {
+    "children": [
+      "rich-text#footer-atendimento-title",
+      "flex-layout.col#footer-atendimento-1-menu"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "colGap": 7,
+      "blockClass": ["footer-atendimento-1"]
+    }
+  },
+  "flex-layout.col#footer-atendimento-1-menu": {
+    "children": ["vtex.menu@2.x:menu#atendimento"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#footer-atendimento-title": {
+    "props": {
+      "blockClass": ["text"],
+      "text": "Atendimento",
+      "font": "t-heading-4"
+    }
+  },
+
+  "flex-layout.col#footer-atendimento-menu": {
+    "children": ["vtex.menu@2.x:menu#atendimento"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#footer-atendimento-horario": {
+    "children": ["vtex.menu@2.x:menu#horario"],
+    "props": {
+      "width": "33%",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "vtex.menu@2.x:menu#atendimento": {
+    "title": "Menu Atendimento",
+    "props": {
+      "blockClass": ["footer-atendimento"],
+      "orientation": "horizontal",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "type": "external",
+            "noFollow": false,
+            "tagTitle": "Telefone",
+            "text": "(11) 3334-0097"
+          },
+          "iconProps": {
+            "id": "custom-phone",
+            "size": 14,
+            "viewBox": "0 0 12 10.5"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "mailto:contato@championbrasil.com",
+            "type": "external",
+            "noFollow": false,
+            "tagTitle": "contato@championbrasil.com",
+            "text": "contato@championbrasil.com"
+          },
+          "iconProps": {
+            "id": "custom-email",
+            "size": 14,
+            "viewBox": "0 0 12 9"
+          }
+        }
+      ]
+    }
+  },
+
+  "vtex.menu@2.x:menu#horario": {
+    "title": "Menu Atendimento",
+    "props": {
+      "blockClass": ["footer-atendimento", "footer-atendimento--horario"],
+      "orientation": "horizontal",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "tagTitle": "Horário",
+            "text": "Segunda a sexta das 8:30h às 18:00h. Sábados das 8:30h às 15:00h"
+          },
+          "iconProps": {
+            "id": "custom-clock",
+            "size": 14,
+            "viewBox": "0 0 12 12"
+          }
+        }
+      ]
+    }
+  }
+}

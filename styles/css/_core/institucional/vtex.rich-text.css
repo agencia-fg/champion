@@ -1,0 +1,36 @@
+.wrapper--institucional-content-title .heading {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-family: var(--ShelfTitleFontFamily);
+}
+
+.heading--text-content {
+  margin: 2em auto 1em auto;
+  text-transform: uppercase;
+}
+
+.link--text-content {
+  color: var(--institucional--linkColor);
+  text-decoration: var(--institucional--linkDecoration);
+  font-weight: var(--institucional--linkFontWeight);
+}
+
+.paragraph--text-content:not(:first-child),
+.list--text-content:not(:first-child),
+.listOrdered--text-content:not(:first-child) {
+  margin-top: 1rem;
+}
+.image--text-content {
+  display: block;
+  margin: 1rem 0;
+}
+
+.listItem--text-content {
+  list-style-position: ide;
+}
+
+.listOrdered--text-content,
+.list--text-content {
+  list-style-position: inside;
+}

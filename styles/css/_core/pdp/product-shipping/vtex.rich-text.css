@@ -1,0 +1,21 @@
+.paragraph--shipping-simulator-title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  display: flex;
+  align-items: center;
+}
+.paragraph--shipping-simulator-title::before {
+  content: '';
+  width: 1.5em;
+  height: 1.5em;
+  margin-right: 1em;
+  background: no-repeat center/contain
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14.092' height='11.976' viewBox='0 0 14.092 11.976'%3E%3Cpath id='Path_7952' data-name='Path 7952' d='M13.748,6.132a1.414,1.414,0,0,0-1.208-.685H10.825V4.038a.7.7,0,0,0-.7-.7H3.075A1.411,1.411,0,0,0,1.666,4.743v7.045a1.405,1.405,0,0,0,.72,1.222,2.455,2.455,0,0,0,4.881.187H9.452a2.453,2.453,0,0,0,4.86,0h.036a1.411,1.411,0,0,0,1.409-1.409V9.674a.7.7,0,0,0-.1-.363L13.748,6.131Zm-2.923.725H12.54L13.808,8.97H10.825ZM4.837,13.9a1.057,1.057,0,1,1,1.057-1.057A1.058,1.058,0,0,1,4.837,13.9Zm7.045,0a1.057,1.057,0,1,1,1.057-1.057A1.058,1.058,0,0,1,11.882,13.9Z' transform='translate(-1.666 -3.334)' fill='%23262626'/%3E%3C/svg%3E%0A");
+}
+
+.heading--shipping-simulator {
+  font-size: 0.875rem;
+  letter-spacing: 0.02em;
+}

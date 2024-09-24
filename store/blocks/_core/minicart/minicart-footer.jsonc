@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer",
+      "paddingBottom": 7
+    },
+    "children": ["flex-layout.col#minicart-footer"]
+  },
+  "flex-layout.col#minicart-footer": {
+    "children": [
+      "minicart-summary",
+      "minicart-checkout-button",
+      "link#closeMinicart"
+    ]
+  },
+
+  "link#closeMinicart": {
+    "props": {
+      "href": "#",
+      "label": "Continuar Comprando",
+      "blockClass": "closeMinicart"
+    }
+  }
+}

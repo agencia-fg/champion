@@ -1,0 +1,7 @@
+.myClass {
+    background-image: url('https://picsum.photos/id/198/500/500');
+}
+
+.myClass :global(.trimix-store-0-x-paragraph) {
+    background: blue;
+}

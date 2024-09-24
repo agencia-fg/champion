@@ -1,0 +1,31 @@
+.styledLinkContent--footerMenu {
+  font-size: 0.875rem;
+  align-items: center;
+  letter-spacing: var(--footerMenuLetterSpacing);
+  color: var(--footerMainColor);
+}
+
+.styledLinkContent--footerMenu:hover {
+  text-decoration: underline;
+  color: var(--text--muted);
+}
+
+@media (min-width: 1024px) {
+  .menuContainerNav--footerMenu {
+    padding-left: 0.25rem;
+  }
+}
+
+.menuItem--menuSocial {
+  display: flex;
+  align-items: center;
+}
+
+.menuContainerNav--footerMenu {
+  padding: 0 1.25rem;
+}
+@media (min-width: 768px) {
+  .menuContainerNav--footerMenu {
+    padding: 0;
+  }
+}

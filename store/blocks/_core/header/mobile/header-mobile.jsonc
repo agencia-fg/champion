@@ -1,0 +1,96 @@
+{
+  "header-layout.mobile": {
+    "title": "Header Mobile",
+    "children": [    
+      "tag-h1",  
+      "header-row#tip-bar",
+      "header-row#main-mobile",
+      "modal-trigger#lgpd",
+      "link#whatsappFlutuante"
+    ]
+  },
+
+  "header-row#main-mobile": {
+    "props": {
+      "sticky": true,
+      "blockClass": ["header-main-mobile"]
+    },
+    "children": ["flex-layout.row#header-mobile-main"]
+  },
+  "flex-layout.row#header-mobile-main": {
+    "children": ["flex-layout.col#header-mobile-main"],
+    "props": {
+      "blockClass": ["header-mobile-main"],
+      "paddingBottom": 4,
+      "paddingTop": 4
+    }
+  },
+  "flex-layout.col#header-mobile-main": {
+    "children": [
+      "flex-layout.row#header-mobile-main-1",
+      "flex-layout.row#search-mobile"
+    ],
+    "props": {
+      "blockClass": ["flex-layout.row#header-mobile-main"]
+    }
+  },
+  "flex-layout.row#header-mobile-main-1": {
+    "children": [      
+      "flex-layout.col#header-mobile-drawer",
+      "flex-layout.col#header-mobile-logo",
+      "flex-layout.col#header-mobile-minicart"
+    ],
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["header-mobile-main"]
+    }
+  },
+
+  "flex-layout.col#header-mobile-drawer": {
+    "children": ["drawer#menu-mobile"],
+    "props": {
+      "width": "25%",
+      "verticalAlign": "middle",
+      "blockClass": ["header-mobile"]
+    }
+  },
+  "flex-layout.col#header-mobile-minicart": {
+    "children": ["minicart.v2"],
+    "props": {
+      "width": "25%",
+      "horizontalAlign": "right",
+      "verticalAlign": "middle",
+      "blockClass": ["header-mobile"]
+    }
+  },
+
+  "flex-layout.col#header-mobile-logo": {
+    "children": ["logo#store"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["logo"]
+    }
+  },
+
+  "flex-layout.row#search-mobile": {
+    "children": ["flex-layout.col#search-mobile"],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#search-mobile": {
+    "children": ["search-bar"],
+    "props": {
+      "width": "100%",
+      "blockClass": ["search-mobile"]
+    }
+  },
+
+  "category-menu#mobile": {
+    "props": {
+      "blockClass": "menu",
+      "mobileMode": true
+    }
+  }
+}

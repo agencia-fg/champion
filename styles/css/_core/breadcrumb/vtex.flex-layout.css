@@ -1,0 +1,8 @@
+@media (max-width: 47.5em) {
+  .flexRow--pdp-breadcrumb :global(.vtex-breadcrumb-1-x-container) {
+    justify-content: center;
+  }
+}
+.flexRow--pdp-breadcrumb :global(.vtex-breadcrumb-1-x-term) {
+  display: none;
+}

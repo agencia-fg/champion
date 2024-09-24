@@ -1,0 +1,12 @@
+.gallery {
+  padding-left: 0;
+}
+
+.totalProducts--layout {
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+.totalProductsMessage {
+  font-weight: normal;
+  color: var(--text);
+}

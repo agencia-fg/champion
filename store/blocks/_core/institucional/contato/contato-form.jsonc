@@ -1,0 +1,106 @@
+{
+  "flex-layout.row#contato-form": {
+    "children": ["form#contato"],
+    "props": {
+      "marginTop": 3,
+      "blockClass": ["contato-form", "form"]
+    }
+  },
+
+  "form#contato": {
+    "props": {
+      "entity": "FC",
+      "schema": "formularioDeContato",
+      "blockClass": "contato-form"
+    },
+    "children": ["flex-layout.row#contato-fields"],
+    "blocks": ["form-success#contato"]
+  },
+  "flex-layout.row#contato-fields": {
+    "props": {
+      "rowGap": 5,
+      "colGap": 5,
+      "blockClass": "contato-fields"
+    },
+    "children": ["flex-layout.col#contato-fields"]
+  },
+  "flex-layout.col#contato-fields": {
+    "props": {
+      "blockClass": "contato-fields"
+    },
+    "children": [
+      "flex-layout.row#contato-fields-1",
+      "form-input.text#contato-subject",
+      "form-input.textarea#contato-message",
+      "flex-layout.row#contato-fields-4"
+    ]
+  },
+  "flex-layout.row#contato-fields-1": {
+    "props": {
+      "blockClass": "contato-fields"
+    },
+    "children": [
+      "form-input.text#contato-name",
+      "form-input.text#contato-email"
+    ]
+  },
+  "flex-layout.row#contato-fields-4": {
+    "props": {
+      "blockClass": "contato-fields",
+      "horizontalAlign": "right"
+    },
+    "children": ["form-submit#contato"]
+  },
+  "form-submit#contato": {
+    "props": {
+      "blockClass": "contato"
+    }
+  },
+  "form-success#contato": {
+    "children": ["rich-text#contato-success-title", "rich-text#contato-success"]
+  },
+  "rich-text#contato-success-title": {
+    "props": {
+      "text": "#### Formulário enviado",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["contato-success-title"]
+    }
+  },
+  "rich-text#contato-success": {
+    "props": {
+      "text": "Recebemos sua mensagem! Em breve retornaremos seu contato.",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "form-input.text#contato-name": {
+    "props": {
+      "label": "Seu nome",
+      "placeholder": "Ex.: João Silva",
+      "pointer": "#/properties/name"
+    }
+  },
+  "form-input.text#contato-email": {
+    "props": {
+      "label": "Seu e-mail",
+      "placeholder": "email@exemplo.com",
+      "pointer": "#/properties/email"
+    }
+  },
+  "form-input.text#contato-subject": {
+    "props": {
+      "label": "Assunto",
+      "placeholder": "Ex.: Vendas B2B, Meu Pedido, etc",
+      "pointer": "#/properties/subject"
+    }
+  },
+  "form-input.textarea#contato-message": {
+    "props": {
+      "label": "Mensagem",
+      "placeholder": "",
+      "pointer": "#/properties/message"
+    }
+  }
+}

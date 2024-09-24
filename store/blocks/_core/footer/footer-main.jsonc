@@ -1,0 +1,27 @@
+{
+  "flex-layout.row#footer-main": {
+    "title": "Principal",
+    "children": [
+      "flex-layout.col#newsletter-social",
+      "flex-layout.col#spacer",
+      "flex-layout.col#footer-links"
+    ],
+    "props": {
+      "border": "bottom",
+      "borderColor": "muted-3",
+      "fullWidth": {
+        "mobile": true,
+        "desktop": false
+      },
+      "paddingTop": {
+        "mobile": 7,
+        "desktop": 8
+      },
+      "paddingBottom": {
+        "mobile": 0,
+        "desktop": 8
+      },
+      "blockClass": ["footer-main"]
+    }
+  }
+}

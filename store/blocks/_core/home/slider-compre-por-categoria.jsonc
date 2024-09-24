@@ -1,0 +1,56 @@
+{
+  "optional-block#slider-compre-por-categoria": {
+    "title": "Compre Por Categoria (opcional)",
+    "children": ["flex-layout.row#slider-compre-por-categoria"]
+  },
+  "flex-layout.row#slider-compre-por-categoria": {
+    "title": "Conteúdo",
+    "props": {
+      "fullWidth": {
+        "desktop": false,
+        "mobile": true
+      },
+      "marginTop": 9
+    },
+    "children": ["flex-layout.col#slider-compre-por-categoria"]
+  },
+  "flex-layout.col#slider-compre-por-categoria": {
+    "props": {
+      "rowGap": 6
+    },
+    "children": [
+      "rich-text#slider-compre-por-categoria-title",
+      "list-context.banners#slider-compre-por-categoria"
+    ]
+  },
+
+  "rich-text#slider-compre-por-categoria-title": {
+    "title": "Título",
+    "props": {
+      "text": "## COMPRE POR CATEGORIA",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": ["shelfTitle"]
+    }
+  },
+
+  "slider-layout#slider-compre-por-categoria": {
+    "props": {
+      "blockClass": ["compre-por-categoria", "hasDots"],
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 3,
+        "phone": 2
+      },
+      "showPaginationDots": "always",
+      "showNavigationArrows": "never",
+      "infinite": false,
+      "centerMode": {
+        "desktop": "disabled",
+        "mobile": "to-the-left"
+      },
+      "fullWidth": true,
+      "arrowSize": 32
+    }
+  }
+}

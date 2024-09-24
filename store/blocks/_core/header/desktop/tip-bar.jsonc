@@ -1,0 +1,26 @@
+{
+  "flex-layout.row#tip-bar": {
+    "children": ["list-context.tipbar"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["tip-bar"]
+    }
+  },
+
+  "slider-layout#tip-bar": {
+    "props": {
+      "blockClass": ["tip-bar"],
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "never",
+      "showPaginationDots": "never",
+      "autoplay": {
+        "timeout": 2000
+      }
+    }
+  }
+}

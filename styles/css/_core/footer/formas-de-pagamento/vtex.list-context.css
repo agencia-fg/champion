@@ -1,0 +1,22 @@
+.list--formas-de-pagto-bandeiras {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 220px;
+  margin: auto;
+  justify-content: center;
+}
+
+.item--formas-de-pagto-bandeiras {
+  margin: 0 0.5rem 0.5rem 0;
+}
+
+@media (min-width: 48em) {
+  .list--formas-de-pagto-bandeiras {
+    margin: 0;
+    max-width: none;
+    flex-wrap: nowrap;
+  }
+  .item--formas-de-pagto-bandeiras {
+    margin: 0 0.5rem 0 0;
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "header-layout.desktop": {
+    "title": "Header Desktop",
+    "children": [
+      "sticky-layout#header-main-desktop",
+      "modal-trigger#lgpd",
+      "link#whatsappFlutuante"
+    ]
+  },
+
+  "flex-layout.col#header-desktop": {
+    "children": [
+      "flex-layout.row#header-main-desktop--compact",
+      "flex-layout.row#menu"
+    ]
+  }
+}

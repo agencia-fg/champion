@@ -1,0 +1,36 @@
+{
+  "header.full": {
+    "title": "Header",
+    "blocks": ["header-layout.desktop", "header-layout.mobile", "theme.custom"]
+  },
+
+  "login": {
+    "props": {
+      "logInButtonBehavior": "link",
+      "showIconProfile": true,
+      "hideIconLabel": false
+    }
+  },
+  "category-menu": {
+    "props": {
+      "blockClass": "menuHeader",
+      "showSubcategories": true,
+      "showAllDepartments": false,
+      "menuDisposition": "right"
+    }
+  },
+  "flex-layout.col#spacer": {
+    "props": {
+      "width": "grow"
+    }
+  },
+
+  "link#whatsappFlutuante": {
+    "title": "Link do WhatsApp Flutuante",
+    "props": {
+      "blockClass": "whatsappFlutuante",
+      "target": "_blank",
+      "href": "https://api.whatsapp.com/send?phone=55119999"
+    }
+  }
+}

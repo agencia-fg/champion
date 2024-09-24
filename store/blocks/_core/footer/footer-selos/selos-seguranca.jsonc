@@ -1,0 +1,77 @@
+{
+  "flex-layout.col#selos-seguranca": {
+    "props": {
+      "width": "33%"
+    },
+    "children": ["flex-layout.row#selos-seguranca"]
+  },
+  "flex-layout.row#selos-seguranca": {
+    "children": [
+      "flex-layout.col#selos-seguranca-title",
+      "flex-layout.col#selos-seguranca-imgs"
+    ],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": ["selos-seguranca"]
+    }
+  },
+  "flex-layout.col#selos-seguranca-title": {
+    "children": ["rich-text#selos-seguranca"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["title"],
+      "horizontalAlign": { "mobile": "center", "desktop": "center" }
+    }
+  },
+  "flex-layout.col#selos-seguranca-imgs": {
+    "children": ["flex-layout.row#selos"],
+    "props": {
+      "preventVerticalStretch": true,
+      "verticalAlign": "middle",
+      "horizontalAlign": {
+        "mobile": "left",
+        "desktop": "right"
+      },
+      "blockClass": ["selos-seguranca"]
+    }
+  },
+
+  "rich-text#selos-seguranca": {
+    "props": {
+      "blockClass": ["footer-title-2"],
+      "textColor": "c-on-muted-3",
+      "font": "t-mini",
+      "text": "Certificados e Segurança"
+    }
+  },
+
+  "flex-layout.row#selos": {
+    "children": ["image#footer-pci", "image#footer-lets-encrypt"],
+    "props": {
+      "colGap": 5,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "blockClass": ["selos"],
+
+      "horizontalAlign": { "mobile": "center", "desktop": "center" }
+    }
+  },
+
+  "image#footer-pci": {
+    "title": "Logo PCI",
+    "props": {
+      "height": 40,
+      "blockClass": ["footer-selo"],
+      "src": "assets/logo-pci.png"
+    }
+  },
+
+  "image#footer-lets-encrypt": {
+    "title": "Logo Let's Encrypt",
+    "props": {
+      "height": 40,
+      "blockClass": ["footer-selo"],
+      "src": "assets/lets-encrypt.svg"
+    }
+  }
+}

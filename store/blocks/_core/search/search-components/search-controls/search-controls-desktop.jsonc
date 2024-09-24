@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#search-controls-desktop": {
+    "props": {
+      "preventVerticalStretch": true,
+      "marginBottom": 6,
+      "blockClass": ["search-controls-desktop"]
+    },
+    "children": [
+      "flex-layout.col#search-totalProducts--desktop",
+      "flex-layout.row#search-orderBy"
+    ]
+  },
+  "flex-layout.row#search-orderBy": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "horizontalAlign": "right"
+    },
+    "children": ["flex-layout.col#search-orderBy"]
+  },
+  "flex-layout.col#search-totalProducts--desktop": {
+    "children": ["total-products.v2"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  }
+}

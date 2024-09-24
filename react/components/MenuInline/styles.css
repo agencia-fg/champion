@@ -1,0 +1,220 @@
+.MenuContainer {
+  text-transform: uppercase;
+}
+.MenuContainer button {
+  text-transform: inherit;
+}
+.MenuContainer--desktop {
+}
+.MenuContainer--mobile {
+}
+
+.MenuLevel1 h2 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.MenuLevel2__title h2 {
+  font-size: 0.9rem;
+}
+
+.MenuLevel3__Item h3 {
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.MenuItem {
+  text-align: left;
+  display: block;
+}
+
+.MenuContainer--mobile .MenuItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.MenuContainer--desktop > .MenuItem {
+  margin-right: 1.5rem;
+}
+.MenuContainer--desktop .MenuLevel2__grid .MenuItem {
+  padding-top: 0;
+}
+
+.MenuLevel2 {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  background: var(--background);
+}
+
+.MenuLevel2.MenuLevel2--mobile {
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.MenuLevel2.MenuLevel2--mobile :global(.vtex-store-components-3-x-container) {
+  width: 100%;
+}
+
+.MenuLevel2__grid {
+  column-count: 4;
+}
+.MenuLevel2__grid .MenuLevel2__title {
+  margin-bottom: 1rem;
+}
+
+.MenuLevel2__grid .MenuLevel2__gridItem {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+
+.MenuLevel1 {
+  font-weight: var(--MenuLevel1FontWeight);
+  font-size: var(--MenuLevel1FontSize);
+  color: var(--MenuLevel1Color);
+  letter-spacing: var(--MenuLevel1LetterSpacing);
+}
+
+.AllDepartmentsButton {
+  font-weight: var(--MenuLevel1FontWeight);
+  font-size: var(--MenuLevel1FontSize);
+  color: var(--primary);
+  letter-spacing: var(--MenuLevel1LetterSpacing);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  width: 100%;
+  transition: all 0.25s var(--easeIn);
+}
+.AllDepartments:hover .AllDepartmentsButton {
+  background: var(--primary);
+  color: var(--text--on-primary);
+}
+.MenuContainer--desktop .AllDepartmentsContent {
+  visibility: hidden;
+  white-space: normal;
+}
+.MenuContainer--desktop .AllDepartments:hover .AllDepartmentsContent {
+  visibility: visible;
+}
+.MenuContainer--desktop .AllDepartments {
+  margin-right: 1.5rem;
+}
+.MenuContainer--desktop .MenuLevel1,
+.MenuContainer--desktop .AllDepartmentsButton {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.MenuLevel1 {
+  position: relative;
+}
+.MenuLevel1:hover {
+  text-decoration: var(--MenuLevel1HoverTextDecoration);
+  opacity: var(--MenuLevel1HoverOpacity);
+  color: var(--MenuLevel1HoverColor);
+}
+.MenuLevel1::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: var(--text);
+  visibility: hidden;
+}
+.MenuLevel1:hover::after {
+  visibility: visible;
+}
+.MenuLevel2__title {
+  font-size: var(--MenuLevel2TitleFontSize);
+  color: var(--MenuLevel2TitleColor);
+  letter-spacing: var(--MenuLevel2TitleLetterSpacing);
+  font-weight: var(--MenuLevel2TitleFontWeight);
+}
+.MenuLevel2__title:hover {
+  text-decoration: var(--MenuLevel2TitleHoverTextDecoration);
+  opacity: var(--MenuLevel2TitleHoverOpacity);
+  color: var(--MenuLevel2TitleHoverColor);
+}
+
+.MenuLevel3__Item {
+  font-weight: normal;
+  font-size: var(--MenuLevel3FontSize);
+  color: var(--MenuLevel3Color);
+  letter-spacing: var(--MenuLevel3LetterSpacing);
+  padding-bottom: 0.5rem;
+}
+
+.MenuLevel3__Item:hover {
+  color: var(--MenuLevel3HoverColor);
+  text-decoration: var(--MenuLevel3HoverTextDecoration);
+}
+.MenuTitle {
+  text-transform: none;
+}
+.MenuContainer--mobile .MenuTitle {
+  justify-content: space-between;
+}
+
+.MenuTitleText {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+  font-family: var(--ShelfTitleFontFamily);
+  font-weight: normal;
+}
+
+.MenuTitle {
+  display: flex;
+  align-items: center;
+}
+
+.MenuContainer--desktop .AllDepartments {
+  position: relative;
+  width: var(--AllDepartmentsColWidthDesktop);
+  flex-shrink: 0;
+}
+
+.MenuContainer--desktop .AllDepartmentsContent {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  background: var(--AllDepartmentsContentBackground);
+  padding: 0.5rem 0 1rem 0;
+}
+
+.MenuContainer--desktop .AllDepartmentsContent .MenuLevel1 {
+  padding: 0.5rem 1rem;
+}
+
+.AllDepartments__ContentDesktop {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background: #fff;
+  min-height: 100%;
+  flex-shrink: 0;
+  width: calc(var(--wrapper) - var(--AllDepartmentsColWidthDesktop));
+  padding: 1rem 2rem;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.MenuLevel1--highlight {
+  color: var(--primary);
+}
+
+.MenuContainer--desktop > *,
+.MenuContainer--desktop .MenuStatic > * {
+  white-space: nowrap;
+  margin-right: var(--inlineMenuGapX);
+}

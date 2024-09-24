@@ -1,0 +1,54 @@
+{
+  "flex-layout.row#product-right-1": {
+    "props": {
+      "border": "bottom",
+      "borderColor": "muted-3",
+      "paddingBottom": 3
+    },
+    "children": ["flex-layout.col#product-right-1"]
+  },
+  "flex-layout.col#product-right-1": {
+    "children": [
+      "vtex.store-components:product-name#pdp",
+      "flex-layout.row#product-right-1-2"
+    ],
+    "props": {
+      "rowGap": 3
+    }
+  },
+
+  "flex-layout.row#product-right-1-2": {
+    "children": [
+      "flex-layout.col#product-right-identifier",
+      "flex-layout.col#product-right-rating"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 3,
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "flex-layout.col#product-right-identifier": {
+    "children": ["product-identifier.product"],
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": ["product-right-identifier"]
+    }
+  },
+
+  "flex-layout.col#product-right-rating": {
+    "children": ["flex-layout.row#pdp-reviews-summary"],
+    "props": {
+      "width": "grow",
+      "verticalAlign": "middle",
+      "blockClass": ["product-right-rating"]
+    }
+  },
+
+  "vtex.store-components:product-name#pdp": {
+    "props": {
+      "blockClass": "pdp"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "flex-layout.col#search-content": {
+    "props": {
+      "width": "grow",
+      "preventVerticalStretch": true,
+      "marginLeft": {
+        "mobile": 0,
+        "desktop": 10
+      }
+    },
+    "children": [
+      "responsive-layout.desktop#search-controls",
+      "responsive-layout.mobile#search-controls",
+      "search-content",
+      "flex-layout.row#search-fetch-more"
+    ]
+  },
+
+  "flex-layout.row#search-fetch-more": {
+    "children": ["flex-layout.col#search-fetch-more"],
+    "props": {
+      "marginTop": 8,
+      "marginBottom": 8,
+      "blockClass": ["search-fetch-more"]
+    }
+  },
+
+  "flex-layout.col#search-fetch-more": {
+    "children": [
+      "search-products-count-per-page",
+      "search-products-progress-bar",
+      "search-fetch-more"
+    ],
+    "props": {
+      "rowGap": 2,
+      "blockClass": ["search-fetch-more"]
+    }
+  },
+
+  "search-content": {
+    "blocks": ["gallery", "not-found"]
+  }
+}

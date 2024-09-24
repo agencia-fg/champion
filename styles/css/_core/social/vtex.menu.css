@@ -1,0 +1,22 @@
+.styledLinkContainer--menuSocial {
+  padding: 0;
+  margin: 0 !important;
+}
+
+.styledLinkIcon--menuSocial {
+  display: flex;
+  align-items: center;
+  color: var(--text--muted);
+}
+
+.menuContainer--menuSocial {
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.styledLinkContent--menuSocial {
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  font-size: 0.8rem;
+}

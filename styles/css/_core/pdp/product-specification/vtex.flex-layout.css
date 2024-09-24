@@ -1,0 +1,30 @@
+.flexRow--product-details {
+  background: var(--lightGray);
+}
+@media (max-width: 47.5em) {
+  .flexRowContent--product-details {
+    flex-direction: column;
+    display: flex;
+    gap: 2rem;
+  }
+}
+.flexRowContent--productSpecification {
+  padding-bottom: 1.25em;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 47em) {
+  .flexCol--productSpecificationValue {
+    padding-left: 0;
+  }
+  .flexRowContent--productSpecification {
+    margin-bottom: 0;
+  }
+  .flexRowContent--productSpecification .stretchChildrenWidth {
+    width: 100% !important;
+  }
+}
+
+.flexRowContent--productSpecification .stretchChildrenWidth:first-child {
+  padding-right: 1em;
+}

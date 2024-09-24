@@ -1,0 +1,17 @@
+.logoImage {
+  display: block;
+}
+.sizeDesktop {
+  display: inline-block;
+}
+.logoContainer.sizeDesktop {
+  max-height: none;
+  max-width: none;
+  padding: 0;
+}
+.logoContainer.sizeMobile {
+  max-height: none;
+  max-width: none;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,17 @@
+.galleryLayoutOptionButton {
+  padding: 0 0.5rem;
+  gap: 8px;
+}
+
+.galleryLayoutOptionButton--grid-icon {
+  opacity: 0.5;
+}
+.galleryLayoutOptionButton--grid-icon--selected {
+  opacity: 1;
+}
+
+.totalProducts--layout {
+  padding: 0;
+  text-align: left;
+  border-top: 0;
+}

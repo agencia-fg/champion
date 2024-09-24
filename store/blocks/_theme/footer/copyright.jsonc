@@ -1,0 +1,11 @@
+{
+  "rich-text#copyright": {
+    "title": "Copyright",
+    "props": {
+      "blockClass": ["copyright"],
+      "text": "© 2022 Champion Brasil |  CNPJ: 02.047.418/0001-80 | Rua Da Graça 205 São Paulo - SP, Brasil | CEP: 01125-001",
+      "font": "t-mini",
+      "textColor": "c-on-muted-3"
+    }
+  }
+}

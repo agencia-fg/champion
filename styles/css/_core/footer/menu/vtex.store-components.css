@@ -1,0 +1,11 @@
+.imageElement--formas-pagto {
+  max-width: 90% !important;
+  display: block;
+  margin: auto;
+}
+
+@media (min-width: 64em) {
+  .imageElement--formas-pagto {
+    max-width: 200px !important;
+  }
+}

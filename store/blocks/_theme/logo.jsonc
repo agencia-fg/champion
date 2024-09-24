@@ -1,0 +1,9 @@
+{
+  "logo#store": {
+    "props": {
+      "url": "assets/logo.svg",
+      "width": 200,
+      "href": "/"
+    }
+  }
+}

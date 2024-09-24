@@ -1,0 +1,10 @@
+.productName {
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #3c3c3b;
+}
+
+.price {
+  font-weight: 700;
+  text-align: right;
+}

@@ -1,0 +1,9 @@
+.stackItem--productBadges-desktop {
+  top: auto;
+  bottom: 0;
+  padding: 0.75rem;
+}
+
+.stackItem--summary-productBadges {
+  width: 100%;
+}

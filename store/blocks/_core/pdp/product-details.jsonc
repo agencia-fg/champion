@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#product-details": {
+    "title": "Detalhes do Produto",
+    "props": {
+      "marginTop": 9,
+      "colGap": 8,
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": ["product-details"]
+    },
+    "children": ["product-description", "flex-layout.col#product-specification"]
+  },
+  "flex-layout.col#product-specification": {
+    "children": ["product-specification-group#table"],
+    "props": {
+      "rowGap": 0,
+      "width": "40%",
+      "paddingLeft": {
+        "mobile": 0,
+        "desktop": 0
+      }
+    }
+  }
+}

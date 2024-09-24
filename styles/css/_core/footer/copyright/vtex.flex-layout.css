@@ -1,0 +1,13 @@
+.flexRow--footer-creditos :global(.vtex-store-components-3-x-imageElementLink) {
+  filter: grayscale(0);
+  transition: filter 0.25s;
+  display: flex;
+}
+.flexRow--footer-creditos
+  :global(.vtex-store-components-3-x-imageElementLink):hover {
+  filter: grayscale(1);
+}
+
+.flexRow--copyright {
+  border-top: 1px solid var(--border--muted-3);
+}

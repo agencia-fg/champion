@@ -1,0 +1,20 @@
+.heading--shelfTitle,
+:global(.vtex-shelf-1-x-title--shelf-pdp) {
+  text-transform: var(--ShelfTitleTextTransform);
+  font-family: var(--ShelfTitleFontFamily);
+  letter-spacing: var(--ShelfTitleLetterSpacing);
+  font-weight: var(--ShelfTitleFontWeight);
+  font-size: var(--ShelfTitleFontSizeMobile);
+  text-align: center;
+  color: var(--ShelfTitleColor);
+}
+.paragraph--shelfTitle {
+  letter-spacing: 0.02em;
+}
+
+@media (min-width: 48em) {
+  .heading--shelfTitle,
+  :global(.vtex-shelf-1-x-title--shelf-pdp) {
+    font-size: var(--ShelfTitleFontSizeDesktop);
+  }
+}

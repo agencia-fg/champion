@@ -1,0 +1,38 @@
+{
+  "store.custom#contato": {
+    "blocks": ["flex-layout.row#institucional-content--contato"]
+  },
+
+  "flex-layout.row#institucional-content--contato": {
+    "props": {
+      "marginTop": 9,
+      "marginBottom": 10,
+      "rowGap": 4,
+      "blockClass": ["institucional-content"]
+    },
+    "children": ["flex-layout.col#institucional-content--contato"]
+  },
+  "flex-layout.col#institucional-content--contato": {
+    "children": [
+      "rich-text#institucional-content--contato-title",
+      "rich-text#contato-headline",
+      "flex-layout.row#contato-form"
+    ]
+  },
+
+  "rich-text#institucional-content--contato-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": ["institucional-content-title"],
+      "text": "## Fale conosco",
+      "font": "t-heading-1"
+    }
+  },
+
+  "rich-text#contato-headline": {
+    "props": {
+      "blockClass": ["text-content", "institucional"],
+      "text": "Ainda em dúvida sobre algo? Mande uma mensagem! Responderemos o quanto antes"
+    }
+  }
+}

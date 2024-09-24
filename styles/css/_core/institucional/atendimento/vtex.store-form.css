@@ -1,0 +1,23 @@
+.formSubmitButton--contato {
+  display: flex;
+  justify-content: center;
+}
+
+.formSubmitButton,
+.formSubmitButton :global(.vtex-button) {
+  height: 100%;
+}
+
+.formSubmitButton--contato :global(.vtex-button) {
+  width: 200px;
+}
+
+@media (min-width: 40em) {
+  .formSubmitButton--contato {
+    justify-content: flex-end;
+  }
+  .formSubmitButton--contato :global(.vtex-button) {
+    height: 40px;
+    width: 180px;
+  }
+}

@@ -1,0 +1,21 @@
+.styledLinkContainer--eyebrowMenu {
+  padding: 0;
+}
+
+.menuContainerNav--eyebrowMenu {
+  display: flex;
+  align-items: center;
+}
+.menuItem--eyebrowMenu:not(:first-child) {
+  margin-left: 1rem;
+}
+.styledLinkContent--eyebrowMenu {
+  font-size: 0.75rem;
+  color: var(--barraFreteColor);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.styledLinkContent--eyebrowMenu:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,9 @@
+.listPriceValue--pdp {
+  color: var(--primary);
+  font-size: 0.875rem;
+  margin-right: 0.5rem;
+}
+
+.sellingPriceValue--pdp {
+  font-size: 1.3rem;
+}

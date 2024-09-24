@@ -1,0 +1,15 @@
+.productHighlightText {
+  background: #000;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.25rem;
+  text-align: left;
+  display: inline-block;
+  text-transform: lowercase;
+}
+.productHighlightWrapper {
+  margin-top: 0.25rem;
+  text-align: left;
+}
+
+ 

@@ -1,0 +1,52 @@
+{
+  "flex-layout.col#product-right-col": {
+    "title": "Informação principal",
+    "children": [
+      "flex-layout.row#product-right-1",
+      "condition-layout.product#availability-price",
+      "flex-layout.row#pdp-selector",
+      "condition-layout.product#availability"
+    ],
+    "props": {
+      "width": "40%",
+      "blockClass": ["product-right"],
+      "preventVerticalStretch": true
+    }
+  },
+  "product-description": {
+    "props": {
+      "collapseContent": false
+    }
+  },
+
+  "flex-layout.row#pdp-selector": {
+    "children": ["flex-layout.col#pdp-selector"],
+    "props": {
+      "rowGap": 0,
+      "marginTop": 5,
+      "blockClass": ["pdp-selector"]
+    }
+  },
+  "flex-layout.col#pdp-selector": {
+    "children": ["sku-selector", "flex-layout.row#tabela-de-medidas"],
+    "props": {
+      "rowGap": 0,
+      "blockClass": ["pdp-selector"]
+    }
+  },
+
+  "rich-text#tabela-medidas": {
+    "props": {
+      "blockClass": ["tabela-medidas"],
+      "font": "t-body",
+      "text": "Tabela de Medidas"
+    }
+  },
+
+  "flex-layout.row#tabela-de-medidas": {
+    "children": ["tabela-de-medidas"],
+    "props": {
+      "blockClass": ["tabela-de-medidas"]
+    }
+  }
+}

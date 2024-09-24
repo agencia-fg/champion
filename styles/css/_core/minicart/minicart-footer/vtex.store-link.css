@@ -1,0 +1,9 @@
+.link--closeMinicart {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--primary);
+  font-size: 0.75rem;
+  text-align: center;
+  letter-spacing: 0.05em;
+}

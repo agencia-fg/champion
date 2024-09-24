@@ -1,0 +1,55 @@
+{
+  "flex-layout.row#pdp-reviews-summary": {
+    "title": "Resumo de Reviews",
+    "props": {
+      "colGap": 3,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign": "right"
+    },
+    "children": [
+      "flex-layout.col#pdp-reviews-summary-ratings",
+      "flex-layout.col#pdp-reviews-summary-anchor"
+    ]
+  },
+
+  "flex-layout.col#pdp-reviews-summary-ratings": {
+    "children": ["product-rating-summary"],
+    "props": { "verticalAlign": "middle" }
+  },
+  "flex-layout.col#pdp-reviews-summary-anchor": {
+    "children": ["link#reviews-anchor"],
+    "props": { "verticalAlign": "middle" }
+  },
+
+  "link#reviews-anchor": {
+    "props": {
+      "blockClass": ["reviews-anchor"],
+      "label": "Ver avaliações",
+      "href": "#reviews",
+      "scrollTo": "#reviews"
+    }
+  },
+
+  "flex-layout.row#reviews": {
+    "title": "Reviews",
+    "props": {
+      "marginTop": 10,
+      "blockClass": ["bgWhite"]
+    },
+    "children": ["flex-layout.col#reviews"]
+  },
+  "flex-layout.col#reviews": {
+    "children": ["rich-text#anchor-reviews", "product-reviews"],
+    "props": {
+      "blockClass": ["reviews"]
+    }
+  },
+  "rich-text#anchor-reviews": {
+    "title": "Âncora para Reviews",
+    "props": {
+      "htmlId": "reviews",
+      "blockClass": ["reviews-invisible-anchor"]
+    }
+  }
+}

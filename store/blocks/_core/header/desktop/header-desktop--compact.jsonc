@@ -1,0 +1,93 @@
+{
+  "flex-layout.row#header-main-desktop--compact": {
+    "title": "Principal",
+    "props": {
+      "paddingTop": 5,
+      "paddingBottom": 5,
+      "fullWidth": false,
+      "blockClass": ["header-main-desktop", "header-main-desktop--compact"],
+      "preventHorizontalStretch": false
+    },
+    "children": [
+      "flex-layout.col#header-main-desktop--compact-left",
+      "flex-layout.col#header-logo--compact",
+      "flex-layout.col#header-main-desktop--compact-right"
+    ]
+  },
+
+  "flex-layout.col#header-main-desktop--compact-left": {
+    "children": ["vtex.menu@2.x:menu#menuHeader-1"],
+    "props": {
+      "width": "25%",
+      "verticalAlign": "middle",
+      "horizontalAlign": "left"
+    }
+  },
+
+  "flex-layout.col#header-logo--compact": {
+    "children": ["tag-h1", "logo#store"],
+    "props": {
+      "width": "grow",
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "blockClass": ["logo"]
+    }
+  },
+
+  "flex-layout.col#header-main-desktop--compact-right": {
+    "children": ["flex-layout.row#header-main-desktop--compact-right"],
+    "props": {
+      "width": "25%",
+      "verticalAlign": "middle",
+      "blockClass": ["header-main-desktop--compact-right"]
+    }
+  },
+
+  "flex-layout.row#header-main-desktop--compact-right": {
+    "children": [
+      "flex-layout.col#search-bar--header-compact",
+      "flex-layout.col#header-controls--compact"
+    ],
+    "props": {
+      "colGap": 4,
+      "preventHorizontalStretch": true,
+      "horizontalAlign": "right",
+      "blockClass": ["header-main-desktop--compact-right"]
+    }
+  },
+
+  "flex-layout.col#header-controls--compact": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.row#header-controls--compact"]
+  },
+  "flex-layout.col#search-bar--header-compact": {
+    "children": ["search-bar"],
+    "props": {}
+  },
+
+  "search-bar": {
+    "props": {
+      "placeholder": "Buscar por..."
+    }
+  },
+
+  "flex-layout.row#header-controls--compact": {
+    "props": {
+      "colSizing": "auto",
+      "colGap": 4,
+      "horizontalAlign": "right",
+      "blockClass": ["header-controls"]
+    },
+    "children": ["login#compact", "vtex.menu@2.x:menu#wishlist", "minicart.v2"]
+  },
+
+  "login#compact": {
+    "props": {
+      "logInButtonBehavior": "link",
+      "showIconProfile": true,
+      "hideIconLabel": true
+    }
+  }
+}

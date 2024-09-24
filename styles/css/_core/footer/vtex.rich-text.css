@@ -1,0 +1,23 @@
+.wrapper--footer-menu-title {
+  margin-bottom: 1rem;
+}
+
+.heading--footer-menu-title {
+  font-size: 0.875rem;
+  font-weight: bold;
+}
+
+.heading--footer-title-2,
+.paragraph--footer-title-2 {
+  font-weight: normal;
+  text-transform: none;
+}
+
+.paragraph--copyright,
+.paragraph--footer-title-2 {
+  letter-spacing: 0.05em;
+}
+
+.heading--footer-menu-title {
+  color: var(--footerMainTitleColor);
+}

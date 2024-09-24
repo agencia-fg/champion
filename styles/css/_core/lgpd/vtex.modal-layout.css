@@ -1,0 +1,17 @@
+.modal {
+}
+.paper--lgpd {
+  width: 100vw;
+  margin: 0;
+}
+.container--lgpd {
+  align-items: flex-end;
+}
+.contentContainer--lgpd {
+  background: #fff;
+  border-top: 1px solid #707070;
+  padding: 30px 1em;
+}
+.closeButton {
+  white-space: nowrap;
+}

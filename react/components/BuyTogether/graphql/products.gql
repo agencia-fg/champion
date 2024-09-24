@@ -1,0 +1,70 @@
+query ProductsQuery($identifiers: [ID!]) {
+  productsByIdentifier(field: id, values: $identifiers)
+    @context(provider: "vtex.search-graphql") {
+    productName
+    productId
+    cacheId
+    description
+    linkText
+    categoryId
+    brand
+    properties {
+      originalName
+      name
+    }
+    specificationGroups {
+      originalName
+      name
+    }
+    skuSpecifications {
+      values {
+        originalName
+        name
+      }
+      field {
+        originalName
+        name
+      }
+    }
+    items {
+      name
+      complementName
+      ean
+      images {
+        cacheId
+        imageId
+        imageLabel
+        imageTag
+        imageUrl
+        imageText
+      }
+      itemId
+      measurementUnit
+      name
+      nameComplete
+      referenceId {
+        Key
+        Value
+      }
+      sellers {
+        sellerId
+        sellerName
+        addToCartLink
+        sellerDefault
+        commertialOffer {
+          AvailableQuantity
+          Price
+          PriceWithoutDiscount
+          ListPrice
+          spotPrice
+        }
+      }
+      unitMultiplier
+      variations {
+        originalName
+        name
+        values
+      }
+    }
+  }
+}

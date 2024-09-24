@@ -1,0 +1,17 @@
+.flexRow--header-mobile-main {
+  width: 100%;
+}
+.flexRow--header-controls-mobile :global(.vtex-login-2-x-profile),
+.flexRow--header-controls-mobile :global(.vtex-login-2-x-label) {
+  display: block !important;
+  color: var(--gray);
+  padding-left: 0.5rem;
+  font-size: 0.7rem;
+}
+
+.flexRowContent--header-controls-mobile {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  justify-content: space-between;
+  --iconHeaderColor: var(--text);
+}

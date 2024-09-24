@@ -1,0 +1,12 @@
+.backToTopButtonContainer :global(.vtex-button) {
+  background: #fff;
+  border: 1px solid var(--border--muted-3);
+  border-radius: 50%;
+  color: var(--primary);
+  width: 56px;
+  height: 56px;
+  min-width: 0;
+}
+.backToTopButtonContainer :global(.vtex-button__label) {
+  padding: 0 !important;
+}

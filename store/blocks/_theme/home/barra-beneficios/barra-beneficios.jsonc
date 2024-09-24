@@ -1,0 +1,22 @@
+{
+  "list-context.tipbar#beneficios": {
+    "children": ["slider-layout#beneficios"],
+    "props": {
+      "blockClass": ["beneficios"],
+      "items": [
+        {
+          "text": "#### 10% OFF \n pagamentos à vista",
+          "icon": "assets/beneficios/pix.svg"
+        },
+        {
+          "text": "#### FRETE GRÁTIS \n para região Sudeste",
+          "icon": "assets/beneficios/frete.svg"
+        },
+        {
+          "text": "#### ATÉ 10X SEM JUROS \n no cartão de crédito",
+          "icon": "assets/beneficios/cartao.svg"
+        }
+      ]
+    }
+  }
+}

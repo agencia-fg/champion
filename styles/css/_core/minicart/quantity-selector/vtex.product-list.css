@@ -1,0 +1,31 @@
+.quantitySelectorButton {
+  padding: 0;
+  transform: scale(0.8);
+  background: transparent !important;
+}
+.inputContainer {
+  width: 3rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0 0.5rem;
+}
+.quantitySelectorButton,
+.inputContainer {
+  border: 0;
+}
+
+.quantitySelectorContainer {
+}
+
+.quantityDropdownContainer :global(.vtex-styleguide-9-x-container),
+.quantityInputContainer :global(.vtex-styleguide-9-x-input),
+.quantityInputContainer :global(.vtex-input-prefix__group) {
+  height: 32px;
+  font-size: 12px;
+  border: 0;
+}
+.quantityInputContainer :global(.vtex-styleguide-9-x-input),
+.quantityDropdownContainer :global(.vtex-styleguide-9-x-container) {
+  border: 1px solid var(--border--muted-3);
+  border-radius: var(--borderRadius);
+}

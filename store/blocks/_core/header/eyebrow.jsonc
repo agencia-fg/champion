@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#eyebrow": {
+    "title": "Barra do Topo",
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["eyebrow"],
+      "preventHorizontalStretch": true,
+      "fullWidth": false,
+      "paddingTop": 3,
+      "paddingBottom": 3
+    },
+    "children": [
+      "vtex.menu@2.x:menu#menuHeader-1",
+      "flex-layout.col#tip-bar",
+      "vtex.menu@2.x:menu#menuHeader-2"
+    ]
+  },
+
+  "flex-layout.col#tip-bar": {
+    "children": ["flex-layout.row#tip-bar"],
+    "props": {
+      "width": "grow"
+    }
+  }
+}

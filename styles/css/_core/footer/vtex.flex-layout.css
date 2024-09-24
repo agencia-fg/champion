@@ -1,0 +1,5 @@
+@media (min-width: 64em) {
+  .flexRowContent--footer-main {
+    flex-direction: row-reverse;
+  }
+}

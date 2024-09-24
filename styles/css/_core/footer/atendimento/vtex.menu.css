@@ -1,0 +1,19 @@
+.styledLinkContainer--footer-atendimento {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.styledLinkContent--footer-atendimento {
+  font-size: 0.875rem;
+  white-space: normal;
+  justify-content: flex-start;
+  align-items: center;
+}
+.styledLinkContent--footer-atendimento.styledLinkContent--footer-atendimento--horario {
+  font-size: 0.75rem;
+}
+
+.styledLinkIcon--footer-atendimento {
+  display: flex;
+  color: var(--text--muted);
+}

@@ -1,0 +1,15 @@
+.specificationValue,
+.specificationName {
+  font-size: 0.85rem;
+}
+.specificationName {
+  font-weight: 700;
+}
+
+.groupName {
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  font-weight: bold;
+}

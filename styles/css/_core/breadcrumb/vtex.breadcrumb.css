@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  align-items: center;
+  font-size: 0.75rem;
+  padding: 0;
+  margin: 0;
+  color: currentColor;
+  color: var(--text);
+}
+
+.homeIcon {
+  display: none;
+}
+
+.homeLink::after {
+  content: 'Home';
+}
+.link {
+  color: inherit;
+  padding: 0;
+  white-space: nowrap;
+}
+.link:hover {
+  color: var(--primary);
+}
+
+.link,
+.caretIcon {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+}
+.link,
+.term {
+  line-height: 1em;
+  font-weight: normal;
+  margin: 0;
+}
+.homeLink {
+  border-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  margin-left: 0;
+}
+.arrow {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  color: inherit;
+}
+
+.arrow:last-child .link {
+  margin-right: 0;
+  color: var(--text--muted);
+}
+
+@media (max-width: 1023px) {
+  .container {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+}
+
+.term {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--text--muted);
+}

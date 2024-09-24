@@ -1,0 +1,10 @@
+.heading--newsletterTitle {
+  line-height: 1;
+  margin: 0;
+  font-size: 1rem;
+  color: var(--footerMainTitleColor);
+}
+
+.container--newsletter-headline {
+  font-weight: 300;
+}

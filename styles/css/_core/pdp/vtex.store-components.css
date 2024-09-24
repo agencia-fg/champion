@@ -1,0 +1,5 @@
+.productBrand--pdp {
+  font-size: 1.3rem;
+  letter-spacing: var(--productNamePdpLetterSpacing);
+  line-height: 1.25;
+}

@@ -1,0 +1,41 @@
+.content--footerMenu :global(.vtex-rich-text-0-x-container--footer-menu-title) {
+  display: none;
+}
+
+.content--hidden {
+  display: none;
+}
+
+.content--visible {
+  display: block;
+}
+
+.trigger--footerMenu {
+  padding: 1rem 1.25rem;
+  gap: 8px;
+  border-top: 1px solid var(--border--muted-3);
+}
+.trigger--footerMenu :global(.vtex-rich-text-0-x-container),
+.trigger--footerMenu :global(.vtex-rich-text-0-x-wrapper--footer-menu-title) {
+  margin: 0;
+}
+
+.trigger--footerMenu :global(.vtex-rich-text-0-x-container) {
+  font-weight: bold;
+}
+
+.trigger--footerMenu :global(.vtex-rich-text-0-x-heading--footer-menu-title) {
+  font-weight: bold;
+  text-transform: none;
+  font-size: 0.875rem;
+}
+
+.content--footerMenu {
+  margin-bottom: 1rem;
+}
+
+.trigger--footerMenu :global(.vtex-store-icons-0-x-minusIcon),
+.trigger--footerMenu :global(.vtex-store-icons-0-x-plusIcon) {
+  color: var(--text--muted);
+  height: 14px;
+}

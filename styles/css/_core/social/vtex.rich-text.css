@@ -1,0 +1,7 @@
+
+
+@media (min-width: 64em){
+    .container--footerSocialTitle {
+        display: none;
+    }
+}

@@ -1,0 +1,4 @@
+.footerLayout {
+  border-top: 1px solid var(--border--muted-3);
+  margin-top: 6rem;
+}

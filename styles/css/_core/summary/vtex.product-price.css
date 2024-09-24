@@ -1,0 +1,10 @@
+.listPrice--summary {
+  color: var(--primary);
+}
+
+.installments--summary {
+  color: var(--text--muted);
+}
+.installments--summary .currencyContainer {
+  font-weight: bold;
+}

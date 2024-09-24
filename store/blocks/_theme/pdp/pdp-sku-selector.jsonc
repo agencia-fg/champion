@@ -1,0 +1,16 @@
+{
+  "sku-selector": {
+    "props": {
+      "blockClass": "pdp-sku-selector",
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true,
+      "thumbnailImage": ["thumb"],
+      "initialSelection": "complete",
+      "showValueForVariation": "all",
+      "hideImpossibleCombinations": false,
+      "imageHeight": 64,
+      "imageWidth": 64,
+      "sortVariationsByLabel": true
+    }
+  }
+}

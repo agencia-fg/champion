@@ -1,0 +1,53 @@
+.flexRow--header-main-desktop,
+.flexRow--eyebrow,
+.flexRow--header-desktop .flexRow--menu {
+  border-bottom: var(--headerBorder);
+}
+
+.flexRow--eyebrow {
+  background-color: var(--barraFreteBackground);
+  color: var(--barraFreteColor);
+}
+.flexRow--header-desktop .flexRow--menu {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+.flexRow--header-desktop :global(.vtex-login-2-x-label) {
+  color: var(--headerColor);
+}
+
+.flexRow--header-desktop .flexRowContent--menu {
+  height: 48px;
+}
+
+.flexRowContent--header-main-desktop,
+.flexRowContent--header-desktop-menu {
+  max-width: var(--wrapper);
+  margin-left: auto;
+  margin-right: auto;
+}
+.flexRowContent--header-main-desktop,
+.flexRowContent--header-desktop-menu {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+@media (min-width: 40em) {
+  .flexRowContent--header-main-desktop,
+  .flexRowContent--header-desktop-menu {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (min-width: 80em) {
+  .flexRowContent--header-main-desktop,
+  .flexRowContent--header-desktop-menu {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+}
+
+.flexRow--header-main-desktop {
+  background: var(--headerBackground);
+}

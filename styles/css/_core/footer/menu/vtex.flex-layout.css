@@ -1,0 +1,25 @@
+
+.flexCol--footer-links:global(.vtex-rich-text-0-x-container) {
+  margin: 0.25rem 0;
+}
+.flexCol--footer-links:global(.vtex-menu-2-x-styledLinkContainer) {
+  margin: 0.5rem 0;
+}
+
+@media (hover: hover) {
+  .flexCol--footer-links:global(.vtex-menu-2-x-styledLinkContainer) {
+    margin: 0.25rem 0;
+  }
+}
+
+.flexCol--footer-links:global(.vtex-menu-2-x-styledLink):hover {
+  color: var(--primary);
+}
+
+.flexRowContent--footer-links-menus {
+  gap: 0.75rem;
+}
+
+.flexRow--footer-main {
+  background: var(--footerMainBackground);
+}

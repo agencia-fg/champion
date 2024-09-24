@@ -1,0 +1,70 @@
+{
+  "condition-layout.product#availability-price": {
+    "props": {
+      "conditions": [
+        {
+          "subject": "isProductAvailable"
+        }
+      ],
+      "Then": "flex-layout.row#pdp-price"
+    }
+  },
+
+  "flex-layout.row#pdp-price": {
+    "children": [
+      "flex-layout.col#pdp-list-price",
+      "flex-layout.col#pdp-selling-price",
+      "flex-layout.col#pdp-installments"
+    ],
+    "props": {
+      "border": "bottom",
+      "borderColor": "muted-3",
+      "paddingTop": 5,
+      "paddingBottom": 5,
+      "colGap": 2,
+      "preventHorizontalStretch": true,
+      "preserveLayoutOnMobile": true
+    }
+  },
+
+  "flex-layout.col#pdp-list-price": {
+    "children": ["product-list-price#pdp"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.col#pdp-selling-price": {
+    "children": ["product-selling-price#pdp"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#pdp-installments": {
+    "children": ["product-installments#pdp"],
+    "props": {
+      "verticalAlign": "middle",
+      "marginLeft": {
+        "mobile": 0,
+        "desktop": 3
+      },
+      "blockClass": ["pdp-installments"]
+    }
+  },
+  "product-list-price#pdp": {
+    "props": {
+      "blockClass": ["pdp"]
+    }
+  },
+  "product-selling-price#pdp": {
+    "props": {
+      "blockClass": ["pdp"]
+    }
+  },
+  "product-installments#pdp": {
+    "props": {
+      "blockClass": ["pdp"],
+      "message": "Em até {installmentsNumber}x de {installmentValue}{hasInterest, select, true {, {interestRate} de juros} false { }}"
+    }
+  }
+}

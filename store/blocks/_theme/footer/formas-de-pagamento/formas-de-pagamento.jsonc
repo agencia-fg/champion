@@ -1,0 +1,38 @@
+{
+  "list-context.image-list#formas-de-pagto-bandeiras": {
+    "children": ["list-context-renderer#formas-de-pagto-bandeiras"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "assets/formas-de-pagamento/visa.svg",
+          "description": "Visa"
+        },
+        {
+          "image": "assets/formas-de-pagamento/mastercard.svg",
+          "description": "Mastercard"
+        },
+        {
+          "image": "assets/formas-de-pagamento/elo.svg",
+          "description": "Elo"
+        },
+        {
+          "image": "assets/formas-de-pagamento/amex.svg",
+          "description": "American Express"
+        },
+        {
+          "image": "assets/formas-de-pagamento/boleto.svg",
+          "description": "Boleto"
+        },
+        {
+          "image": "assets/formas-de-pagamento/pix.svg",
+          "description": "PIX"
+        },
+        {
+          "image": "assets/formas-de-pagamento/pic-pay.svg",
+          "description": "Picpay"
+        }
+      ]
+    }
+  }
+}

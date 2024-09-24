@@ -1,0 +1,67 @@
+{
+  "store.custom#collection": {
+    "blocks": ["search-result-layout.customQuery#collection"]
+  },
+  "search-result-layout.customQuery#collection": {
+    "props": {
+      "querySchema": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 8,
+        "queryField": "140",
+        "mapField": "productClusterIds"
+      }
+    },
+    "blocks": ["search-result-layout.desktop#collection"]
+  },
+  "search-result-layout.desktop#collection": {
+    "title": "Desktop",
+    "children": [
+      "flex-layout.row#collectionHeader",
+      "flex-layout.row#search-result"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": false,
+      "defaultGalleryLayout": "grid"
+    }
+  },
+
+  "flex-layout.row#collectionHeader": {
+    "title": "Header da Coleção",
+    "props": {
+      "blockClass": ["search-header"],
+      "paddingTop": 8,
+      "paddingBottom": 7,
+      "colSizing": "auto"
+    },
+    "children": [
+      "flex-layout.col#colecao-title",
+      "flex-layout.col#search-header-SEO--colecao"
+    ]
+  },
+  "flex-layout.col#colecao-title": {
+    "children": ["rich-text#collectionHeader"],
+    "props": {
+      "width": "25%",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#search-header-SEO--colecao": {
+    "children": ["rich-text#search-header-seo"],
+    "props": {
+      "width": "grow",
+      "marginLeft": 4,
+      "verticalAlign": "middle",
+      "blockClass": ["search-header-SEO"]
+    }
+  },
+  "rich-text#collectionHeader": {
+    "title": "Título da Coleção",
+    "props": {
+      "text": "## Coleção",
+      "blockClass": ["searchTitle"],
+      "font": "t-heading-1"
+    }
+  }
+}

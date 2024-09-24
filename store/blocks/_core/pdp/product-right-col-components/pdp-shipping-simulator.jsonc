@@ -1,0 +1,24 @@
+{
+  "flex-layout.row#shipping-simulator": {
+    "title": "Simulador de Frete",
+    "children": ["flex-layout.col#shipping-simulator"],
+    "props": {
+      "blockClass": ["shipping-simulator"],
+      "rowGap": 5,
+      "paddingTop": 6
+    }
+  },
+  "flex-layout.col#shipping-simulator": {
+    "children": ["rich-text#shipping-simulator", "shipping-simulator"],
+    "props": {
+      "marginLeft": 5,
+      "marginRight": 5,
+      "blockClass": ["shipping-simulator"]
+    }
+  },
+  "rich-text#shipping-simulator": {
+    "props": {
+      "text": "#### Frete e prazo de entrega"
+    }
+  }
+}

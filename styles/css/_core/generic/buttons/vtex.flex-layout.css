@@ -1,0 +1,26 @@
+.flexRowContent--header :global(.vtex-button),
+.flexRow--header-controls :global(.vtex-button__label) {
+  background: transparent !important;
+  padding: 0 !important;
+  width: auto;
+  border: 0;
+  min-width: 0;
+  height: auto;
+}
+.flexRowContent--header :global(.vtex-menu-2-x-menuItem):hover {
+  transition: all 0.25s var(--easeIn);
+}
+.flexRowContent--header :global(.vtex-button):hover,
+.flexRowContent--header :global(.vtex-menu-2-x-menuItem):hover {
+  opacity: 0.5;
+}
+
+.flexRow--header-controls :global(.vtex-menu-2-x-styledLinkContainer) {
+  padding: 0 !important;
+}
+
+.flexRow--header-controls
+  :global(.vtex-menu-2-x-menuContainerNav--menu-wishlist) {
+  display: flex;
+  align-items: center;
+}

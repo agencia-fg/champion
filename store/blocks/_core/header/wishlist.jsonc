@@ -1,0 +1,50 @@
+{
+  "vtex.menu@2.x:menu#wishlist": {
+    "title": "Link Wishlist",
+    "props": {
+      "blockClass": ["menu-wishlist"],
+      "orientation": "horizontal",
+      "items": [
+        {
+          "id": "menu-wishlist",
+          "type": "custom",
+          "itemProps": {
+            "href": "/wishlist",
+            "type": "internal",
+            "tagTitle": "Wishlist",
+            "text": ""
+          },
+          "iconProps": {
+            "id": "custom-wishlist",
+            "size": 24,
+            "viewBox": "0 0 16 13.68"
+          }
+        }
+      ]
+    }
+  },
+  "vtex.menu@2.x:menu#wishlist--label": {
+    "title": "Link Wishlist",
+    "props": {
+      "blockClass": ["menu-wishlist", "menu-wishlist--label"],
+      "orientation": "horizontal",
+      "items": [
+        {
+          "id": "menu-wishlist",
+          "type": "custom",
+          "itemProps": {
+            "href": "/wishlist",
+            "type": "internal",
+            "tagTitle": "Wishlist",
+            "text": "Lista de favoritos"
+          },
+          "iconProps": {
+            "id": "custom-wishlist",
+            "size": 24,
+            "viewBox": "0 0 16 13.68"
+          }
+        }
+      ]
+    }
+  }
+}

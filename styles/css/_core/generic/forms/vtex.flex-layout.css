@@ -1,0 +1,4 @@
+.flexRow--form :global(.vtex-input-prefix__group),
+.flexRow--form :global(.vtex-textarea__input) {
+  border-radius: var(--inputBorderRadius);
+}

@@ -1,0 +1,16 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#main-banner",
+      "flex-layout.row#beneficios",
+      "__fold__.experimentalLazyAssets",
+      "optional-block#home-banners-1",
+      "optional-block#slider-compre-por-categoria",
+      "optional-block#home-banners-2",
+      "optional-block#home-vitrine-1",
+      "optional-block#home-banners-3",
+      "optional-block#home-vitrine-2",
+      "optional-block#home-vitrine-3"
+    ]
+  }
+}

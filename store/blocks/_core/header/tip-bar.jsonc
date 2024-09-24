@@ -1,0 +1,10 @@
+{
+  "header-row#tip-bar": {
+    "title": "Tip Bar",
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["tip-bar"]
+    },
+    "children": ["list-context.tipbar"]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "store.custom#institucional": {
+    "blocks": ["flex-layout.row#institucional-content"]
+  },
+
+  "flex-layout.row#institucional-content": {
+    "title": "Conteúdo",
+    "props": {
+      "blockClass": ["institucional-content"],
+      "marginTop": 8,
+      "marginBottom": 8
+    },
+    "children": ["flex-layout.col#institucional-content"]
+  },
+  "flex-layout.col#institucional-content": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 5
+    },
+    "children": [
+      "rich-text#institucional-content-title",
+      "rich-text#institucional-content-text"
+    ]
+  },
+  "rich-text#institucional-content-title": {
+    "title": "Título",
+    "props": {
+      "blockClass": ["institucional-content-title"],
+      "text": "## título",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#institucional-content-text": {
+    "title": "Texto",
+    "props": {
+      "text": "## Título 2 \n ### Título 3 \n #### Título 4 \n- Lista\n- Lista Item 2\n- Lista Item 3\n1. lista ordenada\n2. lista ordenada\n \n\n Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, neque atque cum unde aliquam dolorem laborum autem aut, non eligendi at velit, placeat recusandae illo debitis ab facere consequuntur vel! **Bold** autem aut, non eligendi at _Itálico_ eligendi at velit, placea Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio ab, maiores perferendis unde laudantium dolorem mollitia. Dolore, in quo nulla quos inventore error non exercitationem omnis. Amet expedita laudantium repudiandae! \n ### Links [Link para outra página](/quem-somos) in quo nulla quos inventore error non exercitationem omnis. Amet expedita laudantium repudiandae! \n ### Imagens ![alt text](https://picsum.photos/id/98/300/330 'Título da Imagem')\n ### Mais exemplos\n [Markdown-Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)",
+      "blockClass": ["text-content"]
+    }
+  }
+}

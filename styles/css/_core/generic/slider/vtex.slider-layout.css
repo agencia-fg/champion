@@ -1,0 +1,47 @@
+.sliderLayoutContainer {
+  justify-content: center;
+}
+
+.sliderTrackContainer {
+  max-width: 100%;
+}
+
+.imageElement {
+  max-height: none !important;
+}
+.slide--hasDots {
+  margin-bottom: 2rem;
+}
+.paginationDot,
+:global(.vtex-shelf-1-x-dot),
+:global(.vtex-store-components-3-x-swiperBullet) {
+  transition: transform 0.2s;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  width: 10px;
+  height: 10px;
+  background: #e0e0e0;
+}
+.paginationDot--isActive,
+:global(.vtex-shelf-1-x-dot--isActive),
+:global(.vtex-store-components-3-x-swiperBullet--active) {
+  background: var(--secondary);
+}
+
+:global(.vtex-store-components-3-x-swiperBullet) {
+  opacity: 1;
+}
+
+.sliderArrows {
+  background: var(--sliderArrowBackground) !important;
+  border-radius: 50%;
+  margin: 0;
+  width: 32px;
+  height: 32px;
+  color: var(--sliderArrowColor);
+  border: var(--sliderArrowBorder);
+}
+
+.caretIcon {
+  height: 0.8rem;
+}

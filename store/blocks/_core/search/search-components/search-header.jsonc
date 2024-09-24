@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#search-header": {
+    "title": "Header de categoria",
+    "children": ["flex-layout.col#search-header"],
+    "props": {
+      "blockClass": ["search-header"],
+      "paddingTop": 6,
+      "paddingBottom": {
+        "mobile": 6,
+        "desktop": 8
+      }
+    }
+  },
+
+  "flex-layout.col#search-header": {
+    "children": [
+      "flex-layout.row#search-header-breadcrumb",
+      "flex-layout.row#search-header-content"
+    ],
+    "props": {
+      "rowGap": {
+        "mobile": 5,
+        "desktop": 6
+      },
+      "blockClass": ["search-header"]
+    }
+  },
+
+  "flex-layout.row#search-header-breadcrumb": {
+    "children": ["breadcrumb.search"]
+  },
+
+  "flex-layout.row#search-header-content": {
+    "children": [
+      "flex-layout.col#search-header-title",
+      "flex-layout.col#search-header-SEO"
+    ],
+    "props": {
+      "colGap": 6
+    }
+  },
+  "flex-layout.col#search-header-content": {
+    "children": ["flex-layout.col#search-header-title"]
+  },
+
+  "flex-layout.col#search-header-title": {
+    "children": ["search-title.v2"],
+    "props": {
+      "width": "25%",
+      "verticalAlign": "middle"
+    }
+  },
+
+  "flex-layout.col#search-header-SEO": {
+    "children": ["rich-text#search-header-seo"],
+    "props": {
+      "paddingLeft": {
+        "desktop": 5,
+        "mobile": 0
+      },
+      "verticalAlign": "middle",
+      "blockClass": ["search-header-SEO"]
+    }
+  },
+
+  "rich-text#search-header-seo": {
+    "title": "Texto SEO",
+    "props": {
+      "blockClass": ["search-header-seo"],
+      "font": "t-body",
+      "text": ""
+    }
+  },
+
+  "breadcrumb.search": {
+    "props": {
+      "showOnMobile": true
+    }
+  }
+}

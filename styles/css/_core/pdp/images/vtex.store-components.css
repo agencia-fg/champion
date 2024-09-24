@@ -1,0 +1,15 @@
+.carouselGaleryThumbs .figure {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--border--muted-3);
+}
+
+.carouselGaleryThumbs {
+  max-width: 85px;
+}
+.carouselContainer {
+  justify-content: flex-start;
+}

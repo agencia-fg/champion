@@ -1,0 +1,46 @@
+{
+  "optional-block#home-banners-2": {
+    "title": "Home Banners 2 (opcional)",
+    "children": ["flex-layout.row#home-banners-2"]
+  },
+  "flex-layout.row#home-banners-2": {
+    "title": "Conteúdo",
+    "props": {
+      "marginTop": 9
+    },
+    "children": ["list-context.image-list#home-banners-2"]
+  },
+
+  "list-context.image-list#home-banners-2": {
+    "children": ["list-context-renderer#home-banners-2"],
+    "props": {
+      "height": 720,
+      "images": [
+        {
+          "image": "https://picsum.photos/id/18/1920/620",
+          "mobileImage": "https://picsum.photos/id/35/400/600"
+        },
+        {
+          "image": "https://picsum.photos/id/16/1920/620",
+          "mobileImage": "https://picsum.photos/id/16/400/600"
+        },
+        {
+          "image": "https://picsum.photos/id/16/1920/620",
+          "mobileImage": "https://picsum.photos/id/16/400/600"
+        },
+        {
+          "image": "https://picsum.photos/id/16/1920/620",
+          "mobileImage": "https://picsum.photos/id/16/400/600"
+        }
+      ]
+    }
+  },
+
+  "list-context-renderer#home-banners-2": {
+    "props": {
+      "blockClass": ["home-banners", "home-banners-2"],
+      "listElement": "div",
+      "itemElement": "div"
+    }
+  }
+}

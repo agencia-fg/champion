@@ -1,0 +1,120 @@
+.container {
+  max-width: none;
+}
+.star {
+  color: var(--stars);
+  font-size: 20px !important;
+}
+.summaryContainer .star {
+  color: var(--primary);
+}
+
+.summaryContainer {
+  display: flex;
+  align-items: center;
+}
+
+.starsContainer {
+  margin-bottom: 0.5rem;
+}
+
+.reviewsRatingAverage,
+.reviewsRatingCount {
+  font-size: 0.875rem;
+}
+
+.review__rating--average {
+  background: var(--stars);
+}
+
+.writeReviewContainer {
+  margin: 1.5rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--stars);
+  font-size: 0.75rem;
+}
+
+.reviewsHeading {
+  padding-bottom: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 0.075rem;
+  border-bottom-color: var(--border--muted-3);
+}
+
+.formContainer {
+  background-color: transparent;
+  margin-top: 1.25rem;
+}
+
+.summaryContainer:empty {
+  display: none;
+}
+
+.summaryTotalReviews {
+  margin-top: 0;
+  font-size: 0.75rem;
+}
+
+.loginLink {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.reviewsOrderBy :global(.vtex-styleguide-9-x-dropdown) {
+  margin-right: 0.5rem;
+}
+.reviewsOrderBy :global(.vtex-styleguide-9-x-container) {
+  border-radius: var(--borderRadius);
+  font-size: 0.75rem;
+}
+
+.formRating {
+  margin: 1rem 0;
+}
+.formSection {
+  margin: 1.5rem 0;
+}
+
+.reviewInfo {
+  margin: 1rem 0;
+  font-size: 0.75rem;
+}
+
+.reviewCommentRating {
+  display: flex;
+  align-items: center;
+}
+.reviewCommentUser {
+  font-size: 0.875rem;
+  margin: auto 0 auto 0.875rem;
+}
+
+.reviewComment {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border--muted-3);
+}
+
+.graphContainer {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.graphBar {
+  background: var(--stars);
+}
+.graphBarContainer {
+  background: var(--lightGray);
+  border-radius: var(--borderRadius);
+  overflow: hidden;
+}
+.graphContent {
+  margin-top: 2rem;
+}
+
+.graphText {
+  width: 5em;
+}

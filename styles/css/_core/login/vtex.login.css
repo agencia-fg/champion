@@ -1,0 +1,203 @@
+.content--loginOptions :global(.vtex-button__label),
+.accessCodeOptionBtn :global(.vtex-button__label) {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  font-weight: bold;
+}
+
+.optionsListItem {
+  margin-top: 0.5rem;
+}
+
+.button :global(.vtex-button) {
+  padding: 0.5rem 0;
+  white-space: nowrap;
+}
+
+.sendButton :global(.vtex-button) {
+  min-height: 2.5rem;
+}
+
+.contentForm {
+  padding: 0;
+}
+
+.label {
+  font-weight: bold;
+  color: inherit;
+  font-size: 0.75rem;
+  padding-left: 0.25rem;
+}
+
+@media screen and (min-width: 40em) {
+  .content {
+    align-items: initial;
+  }
+}
+
+.formFooter {
+  align-items: center;
+  margin: 2rem 0 1rem 0;
+}
+
+.emailVerification .formFooter {
+  border-top: 0;
+  padding-top: 0;
+  margin-top: 1.5rem;
+}
+
+.contentAlwaysWithOptions .loginOptionsContainer {
+  border-top: 1px solid var(--border--muted-3);
+  margin-top: 2.5rem;
+  padding-top: 0;
+}
+.contentAlwaysWithOptions .loginOptionsContainer::before {
+  content: 'ou';
+  display: block;
+  width: 3em;
+  text-align: center;
+  margin: -0.75rem auto auto;
+  background: var(--background);
+}
+
+.contentAlwaysWithOptions {
+  flex-direction: column-reverse;
+  width: 90%;
+  max-width: 330px !important;
+  padding: 2rem 0 4rem 0;
+}
+
+.formTitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-family: 'SecondaryFont', sans-serif;
+}
+
+.formSubtitle {
+  line-height: 1.5;
+  color: var(--text);
+}
+
+.formLinkContainer {
+  padding-top: 0;
+}
+
+.inputContainer {
+  margin-top: 0.75rem;
+}
+
+.forgotPasswordLink,
+.dontHaveAccount {
+  font-weight: normal;
+  color: var(--secondary);
+  font-size: 0.75rem;
+}
+
+.sendButton :global(.vtex-button) {
+  border: 0;
+}
+
+.content :global(.vtex-button) :global(.t-small),
+.content :global(.vtex-button) :global(.t-action--small) {
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
+
+.optionsSticky {
+  margin-top: 1.25rem;
+}
+
+.optionsSticky .formTitle {
+  display: none;
+}
+
+.accessCodeOptionBtn :global(.vtex-button),
+.emailPasswordOptionBtn :global(.vtex-button) {
+  background: transparent;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+.accessCodeOptionBtn :global(.vtex-button):hover,
+.emailPasswordOptionBtn :global(.vtex-button):hover {
+  color: var(--text--on-primary);
+  background: var(--secondary);
+  border: 1px solid var(--secondary);
+}
+.accessCodeOptionBtn :global(.vtex-button__label) {
+  font-weight: 700;
+}
+
+.portalWrapper .formTitle {
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.portalWrapper :global(.vtex-button) {
+  height: 40px;
+}
+
+.profileIcon {
+  width: 24px;
+  height: 24px;
+}
+
+.accessCodeOptionBtn :global(.vtex-styleguide-9-x-rotate),
+.sendButton :global(.vtex-styleguide-9-x-rotate) {
+  color: inherit;
+}
+
+.content :global(.styleguide-9-x-input) {
+  font-family: inherit;
+}
+.content :global(.vtex-input-prefix__group) {
+  border-radius: var(--borderRadius);
+}
+.content :global(.vtex-input__suffix) {
+  border-radius: var(--borderRadius);
+}
+
+.backButton :global(.vtex-button) {
+  color: var(--primary);
+}
+
+.button:hover {
+  color: var(--primary);
+}
+
+.container {
+  min-width: 24px;
+}
+
+.arrowUp {
+  right: 13px;
+}
+:global(.vtex-store-drawer-0-x-drawerContent--menu-mobile) .buttonLink {
+  margin-left: -0.75rem;
+}
+:global(.vtex-store-drawer-0-x-drawerContent--menu-mobile)
+  .buttonLink
+  :global(.vtex-button__label) {
+  padding: 0 0.75rem !important;
+}
+
+.dontHaveAccount,
+.forgotPasswordLink {
+  color: var(--primary);
+}
+
+.inputContainerEmail::before {
+  content: 'E-mail';
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+}
+.inputContainerPassword::before {
+  content: 'Senha';
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 0.75rem;
+}

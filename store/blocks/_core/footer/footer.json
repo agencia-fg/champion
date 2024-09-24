@@ -1,0 +1,30 @@
+{
+  "footer": {
+    "blocks": ["footer-layout.desktop", "footer-layout.mobile"]
+  },
+
+  "footer-layout.desktop": {
+    "title": "Desktop",
+    "props": {
+      "blockClass": "desktop"
+    },
+    "children": [
+      "flex-layout.row#footer-main",
+      "flex-layout.row#footer-atendimento",
+      "flex-layout.row#footer-selos",
+      "flex-layout.row#footer-copyright"
+    ]
+  },
+  "footer-layout.mobile": {
+    "title": "Mobile",
+    "props": {
+      "blockClass": "mobile"
+    },
+    "children": [
+      "flex-layout.row#footer-main",
+      "flex-layout.row#footer-atendimento",
+      "flex-layout.row#footer-selos",
+      "flex-layout.row#footer-copyright"
+    ]
+  }
+}

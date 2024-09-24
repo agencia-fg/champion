@@ -1,0 +1,43 @@
+{
+  "vtex.menu@2.x:menu#footer-links-1": {
+    "title": "Sobre Nós",
+    "props": {
+      "blockClass": ["footerMenu"],
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/a-marca",
+            "tagTitle": "A Marca",
+            "text": "A Marca"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/shop-insta",
+            "tagTitle": "Shop Insta",
+            "text": "Shop Insta"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/politica-de-privacidade",
+            "tagTitle": "Política de privacidade",
+            "text": "Política de privacidade"
+          }
+        }
+      ]
+    },
+    "children": ["rich-text#menu-footer-1-title"]
+  },
+  "rich-text#menu-footer-1-title": {
+    "title": "Título",
+    "props": {
+      "text": "### Sobre Nós",
+      "blockClass": ["footer-menu-title"]
+    }
+  }
+}

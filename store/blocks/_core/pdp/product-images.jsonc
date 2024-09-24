@@ -1,0 +1,26 @@
+{
+  "flex-layout.col#product-image": {
+    "children": ["flex-layout.row#product-image"],
+    "props": {
+      "width": "50%"
+    }
+  },
+  "flex-layout.row#product-image": {
+    "title": "Galeria de Imagens",
+    "children": ["product-images"],
+    "props": {
+      "blockClass": ["product-images"]
+    }
+  },
+  "product-images": {
+    "props": {
+      "maxHeight": "none",
+      "aspectRatio": {
+        "desktop": "auto",
+        "phone": "auto"
+      },
+      "displayThumbnailsArrows": true,
+      "hiddenImages": ["cor"]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.showingProducts {
+  color: var(--text);
+}
+
+.progressBar {
+  height: 0.5rem;
+  background: var(--lightGray);
+}
+.progressBarFiller {
+  height: 0.5rem;
+  background: var(--text);
+}
+
+.buttonShowMore :global(.vtex-button) {
+  height: 40px;
+  min-width: 160px;
+}

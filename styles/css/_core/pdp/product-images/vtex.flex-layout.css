@@ -1,0 +1,4 @@
+.flexRow--product-images :global(.vtex-store-components-3-x-swiper-pagination) {
+  position: static;
+  margin-top: 24px;
+}

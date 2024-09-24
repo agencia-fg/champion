@@ -1,0 +1,31 @@
+.searchNotFoundInfo {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.searchNotFoundWhatToDoDotsContainer,
+.searchNotFoundWhatDoIDo {
+  margin-top: 1rem;
+  color: var(--text);
+}
+
+.searchNotFoundWhatDoIDo {
+  font-size: 1rem;
+}
+
+.searchNotFoundWhatToDoDotsContainer {
+  text-transform: none;
+  font-weight: normal;
+  font-size: 0.875rem;
+}
+
+.searchNotFoundWhatToDoDots {
+  list-style-position: inside;
+  padding: 0.2rem 0;
+}
+
+.searchResultContainer {
+  max-width: 100%;
+  padding-top: 0;
+}

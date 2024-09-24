@@ -1,0 +1,4 @@
+.overlay,
+:global(.vtex-minicart-2-x-overlay) {
+  background: var(--backdropColor);
+}

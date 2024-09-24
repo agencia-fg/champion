@@ -1,0 +1,95 @@
+{
+  "flex-layout.row#footer-copyright": {
+    "props": {
+      "blockClass": ["copyright"],
+      "colSizing": "auto",
+      "rowGap": {
+        "mobile": 6,
+        "desktop": 8
+      },
+      "paddingBottom": 8,
+      "paddingTop": {
+        "mobile": 7,
+        "desktop": 8
+      },
+      "marginTop": {
+        "mobile": 3,
+        "desktop": 0
+      }
+    },
+    "children": ["rich-text#copyright", "flex-layout.col#footer-creditos"]
+  },
+  "flex-layout.col#footer-creditos": {
+    "props": {
+      "width": "33%",
+      "verticalAlign": "middle"
+    },
+    "children": ["flex-layout.row#footer-creditos"]
+  },
+
+  "flex-layout.row#footer-creditos": {
+    "children": [
+      "flex-layout.col#desenvolvido-por",
+      "flex-layout.col#footer-2b",
+      "flex-layout.col#footer-vtex"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colGap": 5,
+      "horizontalAlign": {
+        "desktop": "left",
+        "tablet": "left",
+        "phone": "center"
+      },
+      "blockClass": ["footer-creditos", "alignMiddle"]
+    }
+  },
+  "flex-layout.col#desenvolvido-por": {
+    "props": {
+      "width": "33%"
+    },
+    "children": ["rich-text#desenvolvido-por"]
+  },
+
+  "rich-text#desenvolvido-por": {
+    "title": "Desenvolvido por",
+    "props": {
+      "blockClass": ["copyright"],
+      "text": "Desenvolvido por",
+      "font": "t-mini",
+      "textColor": "c-on-muted-3"
+    }
+  },
+  "flex-layout.col#footer-2b": {
+    "children": ["image#footer-2b"]
+  },
+  "flex-layout.col#footer-vtex": {
+    "children": ["image#footer-vtex"]
+  },
+  "image#footer-2b": {
+    "title": "Logo 2B",
+    "props": {
+      "src": "assets/logo-2b.svg",
+      "height": 24,
+      "alt": "2B Digital",
+      "title": "2B Digital",
+      "link": {
+        "url": "https://www.agencia2bdigital.com.br/",
+        "target": "_blank"
+      }
+    }
+  },
+  "image#footer-vtex": {
+    "title": "Logo VTEX",
+    "props": {
+      "src": "assets/logo-vtex.svg",
+      "alt": "VTEX",
+      "title": "VTEX",
+      "height": 24,
+      "link": {
+        "url": "https://vtex.com/br-pt/",
+        "target": "_blank"
+      }
+    }
+  }
+}

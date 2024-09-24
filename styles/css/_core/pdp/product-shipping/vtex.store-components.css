@@ -1,0 +1,100 @@
+.shippingContainer {
+  display: flex;
+  align-items: flex-end;
+  gap: 16px;
+}
+.shippingContainer :global(.vtex-input__suffix),
+.shippingContainer :global(.vtex-input__label) {
+  display: none;
+}
+.shippingContainer :global(.vtex-input-prefix__group) {
+  border-radius: var(--borderRadius);
+}
+.shippingContainer :global(.vtex-address-form-4-x-input) {
+  background: var(--lightGray);
+}
+
+.shippingContainer :global(.vtex-button) {
+  background: #fff;
+  color: var(--secondary);
+  border-color: var(--secondary);
+  width: auto;
+}
+
+.shippingContainer :global(.vtex-button):not(:disabled):hover {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+.shippingContainer :global(.vtex-button__label) {
+  font-size: 12px;
+  letter-spacing: 0.1em;
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode-forgottenURL) {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-top: 0;
+  font-size: 0.75rem;
+  color: var(--primary);
+}
+
+@media (max-width: 768px) {
+  .shippingContainer :global(.vtex-button) {
+    max-width: 165px;
+  }
+}
+
+.shippingContainer :global(.vtex-address-form__postalCode) {
+  padding-bottom: 0;
+  flex-grow: 1;
+}
+
+.currencyContainer {
+  color: var(--primary);
+  font-weight: bold;
+}
+
+.shippingTableLabel {
+  color: var(--text);
+  font-weight: bold;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+}
+.shippingTable {
+  margin-top: 1.5rem;
+  padding-top: 0;
+  border-top: 1px solid var(--border--muted-3);
+}
+.shippingTableRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px dashed var(--border--muted-3);
+}
+.shippingTableRow:last-child {
+  border-bottom: 0;
+}
+.shippingTableCell {
+  display: block;
+}
+.shippingTableCellDeliveryEstimate {
+  order: 99;
+  width: 100%;
+}
+.shippingTableCellDeliveryEstimate,
+.shippingTableCell {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.shippingTableRadioBtn {
+  margin-right: 0.5rem;
+}
+
+.shippingContainer :global(.vtex-input__error) {
+  position: absolute;
+}

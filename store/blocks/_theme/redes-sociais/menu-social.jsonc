@@ -1,0 +1,41 @@
+{
+  "vtex.menu@2.x:menu#social": {
+    "title": "Redes Social",
+    "props": {
+      "blockClass": ["menuSocial"],
+      "orientation": "horizontal",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "type": "external",
+            "noFollow": false,
+            "tagTitle": "Instagram",
+            "text": ""
+          },
+          "iconProps": {
+            "id": "custom-instagram",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "#",
+            "type": "external",
+            "noFollow": false,
+            "tagTitle": "Title",
+            "text": ""
+          },
+          "iconProps": {
+            "id": "custom-facebook",
+            "size": 22,
+            "viewBox": "0 0 16 16"
+          }
+        }
+      ]
+    }
+  }
+}

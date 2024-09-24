@@ -1,0 +1,70 @@
+.skuSelectorItem,
+:global(.vtex-search-result-3-x-filterItem) {
+  order: 9999;
+}
+
+.skuSelectorItem--ppxs,
+:global(.vtex-search-result-3-x-filterItem--pp-xs) {
+  order: 0;
+}
+.skuSelectorItem--ps,
+:global(.vtex-search-result-3-x-filterItem--p-s) {
+  order: 1;
+}
+.skuSelectorItem--mm,
+:global(.vtex-search-result-3-x-filterItem--m-m) {
+  order: 2;
+}
+.skuSelectorItem--gl,
+:global(.vtex-search-result-3-x-filterItem--g-l) {
+  order: 3;
+}
+.skuSelectorItem--ggxl,
+:global(.vtex-search-result-3-x-filterItem--gg-xl) {
+  order: 4;
+}
+.skuSelectorItem--xgg2xl,
+:global(.vtex-search-result-3-x-filterItem--xgg-2xl) {
+  order: 5;
+}
+.skuSelectorItem--xgg3xl,
+:global(.vtex-search-result-3-x-filterItem--3xg-3xl) {
+  order: 6;
+}
+
+.skuSelectorItem--34 {
+  order: 1;
+}
+.skuSelectorItem--36 {
+  order: 2;
+}
+.skuSelectorItem--38 {
+  order: 3;
+}
+.skuSelectorItem--40 {
+  order: 4;
+}
+.skuSelectorItem--42 {
+  order: 5;
+}
+.skuSelectorItem--44 {
+  order: 6;
+}
+.skuSelectorItem--46 {
+  order: 7;
+}
+.skuSelectorItem--48 {
+  order: 8;
+}
+.skuSelectorItem--50 {
+  order: 9;
+}
+.skuSelectorItem--52 {
+  order: 10;
+}
+.skuSelectorItem--54 {
+  order: 11;
+}
+.skuSelectorItem--56 {
+  order: 12;
+}

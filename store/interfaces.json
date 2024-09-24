@@ -1,0 +1,49 @@
+{
+  "teste": {
+    "component": "Greetings"
+  },
+  "theme.custom": {
+    "component": "Theme"
+  },
+  "list-context.tipbar": {
+    "component": "TipBar",
+    "composition": "children",
+    "allowed": "*"
+  },
+
+  "custom-avise-me": {
+    "component": "AviseMe"
+  },
+  "list-context.banners": {
+    "component": "BannersEspeciais",
+    "composition": "children",
+    "allowed": "*"
+  },
+
+  "optional-block": {
+    "component": "OptionalBlock",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "custom-menu-inline": {
+    "component": "MenuInline",
+    "composition": "children",
+    "allowed": "*"
+  },
+  "custom-buy-together": {
+    "component": "BuyTogether",
+    "composition": "blocks",
+    "required": ["product-summary.shelf"],
+    "allowed": ["rich-text"]
+  },
+  "custom-nossas-lojas": {
+    "component": "NossasLojas",
+    "composition": "blocks"
+  },
+  "tabela-de-medidas": {
+    "component": "TabelaDeMedidas"
+  },
+  "tag-h1": {
+    "component": "TagH1"
+  }
+}

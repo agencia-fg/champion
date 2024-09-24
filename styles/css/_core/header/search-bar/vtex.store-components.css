@@ -1,0 +1,36 @@
+.searchBarContainer {
+  max-width: none;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.searchBarIcon {
+  color: #fff;
+}
+.searchBarContainer::placeholder {
+  color: #fff;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input)::placeholder {
+  color: inherit;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  font-size: 1rem;
+  letter-spacing: 0.03em;
+  color: #fff;
+}
+@media (min-width: 64em) and (hover: hover) {
+  .searchBarContainer :global(.vtex-styleguide-9-x-input) {
+    font-size: 0.875rem;
+  }
+}
+
+.autoCompleteOuterContainer :global(.vtex-input-prefix__group) {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  border-radius: 0;
+}
+
+.autoCompleteOuterContainer :global(.vtex-input__suffix) {
+  background: transparent;
+}

@@ -1,0 +1,7 @@
+{
+  "product-price-savings": {
+    "props": {
+      "message": "{savingsPercentage} OFF"
+    }
+  }
+}

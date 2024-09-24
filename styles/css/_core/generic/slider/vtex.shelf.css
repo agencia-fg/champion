@@ -1,0 +1,11 @@
+.slide {
+  padding-bottom: 1px;
+}
+
+.sliderContainer :global(.vtex-slider-0-x-dotsContainer) {
+  padding-top: 1.25rem;
+}
+
+.title--shelf-pdp {
+  padding-bottom: 2rem;
+}

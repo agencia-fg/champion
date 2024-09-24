@@ -1,0 +1,51 @@
+{
+  "vtex.menu@2.x:menu#footer-links-2": {
+    "title": "Minha Conta",
+    "props": {
+      "blockClass": ["footerMenu"],
+      "orientation": "vertical",
+      "items": [
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/account#/",
+            "tagTitle": "Minha conta",
+            "text": "Minha conta"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/account#/orders",
+            "tagTitle": "Acompanhar pedido",
+            "text": "Acompanhar pedido"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/account#/",
+            "tagTitle": "Meus dados",
+            "text": "Meus dados"
+          }
+        },
+        {
+          "type": "custom",
+          "itemProps": {
+            "href": "/account#/addresses",
+            "tagTitle": "Meus endereços",
+            "text": "Meus endereços"
+          }
+        }
+      ]
+    },
+    "children": ["rich-text#menu-footer-2-title"]
+  },
+  "rich-text#menu-footer-2-title": {
+    "title": "Título",
+    "props": {
+      "text": "### Minha conta",
+      "blockClass": ["footer-menu-title"]
+    }
+  }
+}

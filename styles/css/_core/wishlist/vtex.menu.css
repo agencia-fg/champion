@@ -1,0 +1,14 @@
+.styledLinkIcon--menu-wishlist {
+  display: flex;
+}
+
+.styledLink--menu-wishlist {
+  color: var(--iconHeaderColor);
+  transition: color 0.25s ease-out;
+}
+
+.styledLink--menu-wishlist:hover,
+.styledLink--menu-wishlist:active,
+.styledLink--menu-wishlist:focus {
+  color: var(--iconHeaderColorHover);
+}

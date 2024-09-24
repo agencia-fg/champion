@@ -1,0 +1,22 @@
+.childrenContainer--menu-mobile {
+  display: block;
+}
+
+.closeIconContainer--menu-mobile {
+  display: none;
+}
+
+.drawer--menu-mobile
+  :global(.vtex-flex-layout-0-x-flexRowContent--menu-drawer-item)
+  :global(.vtex-store-components-3-x-container) {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.drawerContent--menu-mobile {
+  padding-bottom: 3rem;
+}
+
+.openIconContainer--menu-mobile {
+  color: #fff;
+}

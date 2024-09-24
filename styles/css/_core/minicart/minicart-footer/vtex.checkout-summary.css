@@ -1,0 +1,32 @@
+.summaryItemLabel {
+  font-weight: normal;
+}
+
+.summaryItemLabel,
+.price {
+  font-size: 0.875rem;
+}
+
+.summarySmallDisclaimer {
+  text-transform: none;
+  font-size: 0.75rem;
+}
+
+.summaryItemContainer {
+  padding-bottom: 0;
+  margin-top: 0.25rem;
+}
+
+.summarySmallDisclaimer {
+  display: none;
+}
+.summarySmallContent .summaryItemContainer:last-child {
+  display: flex;
+  margin-top: 0.5rem;
+}
+.summarySmallContent .summaryItemContainer:last-child .summaryItemLabel,
+.summarySmallContent .summaryItemContainer:last-child .price {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.1rem;
+}

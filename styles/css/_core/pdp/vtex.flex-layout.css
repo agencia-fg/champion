@@ -1,0 +1,11 @@
+@media (min-width: 48em) and (max-width: 63.9em) {
+  .flexRowContent--product-main {
+    display: block;
+  }
+  .flexRowContent--product-images {
+    margin-bottom: 2rem;
+  }
+  .flexRowContent--product-main .stretchChildrenWidth {
+    width: 100% !important;
+  }
+}

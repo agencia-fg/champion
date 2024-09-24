@@ -1,0 +1,8 @@
+.flexRowContent--alignMiddle,
+.flexColContent--alignMiddle {
+  align-items: center;
+}
+
+.flexRow--bg-light-gray {
+  background: var(--lightGray);
+}

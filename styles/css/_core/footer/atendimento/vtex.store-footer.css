@@ -1,0 +1,25 @@
+.footerLayout--mobile
+  :global(.vtex-flex-layout-0-x-flexRow--footer-atendimento) {
+  padding: 0 0.75rem;
+}
+
+.footerLayout--mobile
+  :global(.vtex-menu-2-x-menuContainer--footer-atendimento) {
+  display: block;
+}
+
+.footerLayout--mobile :global(.vtex-menu-2-x-menuItem--footer-atendimento) {
+  margin-bottom: 0.75rem;
+}
+.footerLayout--mobile
+  :global(.vtex-menu-2-x-menuItem--footer-atendimento):last-child {
+  margin-bottom: 0;
+}
+
+.footerLayout--desktop :global(.vtex-menu-2-x-menuItem--footer-atendimento) {
+  margin-right: 2rem;
+}
+.footerLayout--desktop
+  :global(.vtex-menu-2-x-menuItem--footer-atendimento):last-child {
+  margin-right: 0;
+}

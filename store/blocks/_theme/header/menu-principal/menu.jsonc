@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#menu": {
+    "children": ["custom-menu-inline"],
+    "props": {
+      "blockClass": ["menu", "menu-drawer-item"],
+      "fullWidth": true
+    }
+  },
+  "custom-menu-inline": {
+    "props": {
+      "showAllDepartments": false,
+      "showCategoryTree": true,
+      "staticItems": []
+    }
+  }
+}

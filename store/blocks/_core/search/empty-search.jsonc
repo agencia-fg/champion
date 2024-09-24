@@ -1,0 +1,18 @@
+{
+  "search-not-found-layout": {
+    "title": "Busca vazia",
+    "children": [
+      "flex-layout.row#empty-search",
+      "flex-layout.row#not-found-vitrine"
+    ]
+  },
+
+  "flex-layout.row#empty-search": {
+    "children": ["not-found"],
+    "props": {
+      "paddingTop": 8,
+      "paddingBottom": 8,
+      "blockClass": ["empty-search"]
+    }
+  }
+}

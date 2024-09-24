@@ -1,0 +1,35 @@
+:global(.vtex-store-link-0-x-buttonLink),
+:global(.vtex-button),
+:global(.vtex-modal-layout-0-x-closeButton--lgpd) {
+  transition: all 0.25s var(--easeIn);
+  height: 40px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: var(--buttonLetterSpacing);
+
+  text-transform: uppercase;
+}
+
+:global(.vtex-store-link-0-x-buttonLink--large) {
+  height: 48px;
+}
+
+:global(.vtex-store-link-0-x-buttonLink) {
+  padding: 0 1rem;
+}
+:global(.vtex-store-link-0-x-buttonLink):hover {
+  background-color: var(--primary--hover);
+  color: var(--text--on-primary);
+}
+:global(.vtex-modal-layout-0-x-closeButton--lgpd):hover {
+  background-color: var(--primary);
+  color: var(--text--on-primary);
+}
+
+:global(.vtex-button) :global(.vtex-styleguide-9-x-rotate) {
+  color: inherit;
+}
+
+:global(.vtex-store-link-0-x-buttonLink--button--large) {
+  height: 48px;
+}

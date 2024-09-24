@@ -1,0 +1,159 @@
+{
+  "product-summary.shelf": {
+    "children": [
+      "stack-layout#summary-stack",
+      "flex-layout.row#product-summary-name",
+      "flex-layout.row#summary-price",
+      "flex-layout.row#summary-product-installments",
+      "product-summary-sku-selector"
+    ]
+  },
+  "product-summary.shelf#buy-together": {
+    "children": [
+      "stack-layout#summary-stack",
+      "flex-layout.row#product-summary-name",
+      "flex-layout.row#summary-price",
+      "flex-layout.row#summary-product-installments",
+      "product-summary-sku-selector"
+    ]
+  },
+  "flex-layout.row#product-summary-text": {
+    "props": {
+      "marginTop": 4,
+      "paddingTop": 4,
+      "rowGap": 0
+    },
+    "children": ["flex-layout.col#product-summary-text"]
+  },
+  "flex-layout.col#product-summary-text": {
+    "children": [
+      "flex-layout.row#product-summary-name",
+      "flex-layout.row#summary-price",
+      "flex-layout.row#summary-product-installments"
+    ],
+    "props": {
+      "paddingLeft": 3,
+      "paddingRight": 3,
+      "blockClass": ["product-summary-text"]
+    }
+  },
+
+  "flex-layout.row#product-summary-name": {
+    "children": ["product-summary-name"],
+    "props": {
+      "marginBottom": 4
+    }
+  },
+  "stack-layout#summary-stack": {
+    "props": {
+      "blockClass": ["summary-stack"]
+    },
+    "children": ["product-summary-image#shelf", "flex-layout.row#productBadges"]
+  },
+  "product-summary-image#shelf": {
+    "props": {
+      "showBadge": false,
+      "showCollections": false,
+      "maxHeight": 240
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#collection": {
+    "props": {
+      "type": "collection"
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "props": {
+      "blockClass": "collection"
+    },
+    "children": ["product-highlight-text"]
+  },
+  "product-highlight-text": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "product-list-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+  "flex-layout.row#summary-price": {
+    "props": {
+      "colGap": 2,
+      "marginBottom": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true
+    },
+    "children": [
+      "flex-layout.col#summary-price-list",
+      "flex-layout.col#summary-price-selling"
+    ]
+  },
+  "flex-layout.col#summary-price-list": {
+    "children": ["product-list-price#summary"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#summary-price-selling": {
+    "children": ["product-selling-price#summary"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#summary-product-installments": {
+    "props": {
+      "marginTop": 1
+    },
+    "children": ["product-installments#summary"]
+  },
+  "product-installments#summary": {
+    "props": {
+      "blockClass": "summary",
+      "message": "{installmentsNumber}x de {installmentValue}{hasInterest, select, true {, {interestRate} de juros} false { sem juros}}"
+    }
+  },
+  "product-selling-price#summary": {
+    "props": {
+      "blockClass": "summary"
+    }
+  },
+
+  "product-summary-sku-selector": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true,
+      "thumbnailImage": ["cor"],
+      "displayMode": "select",
+      "sliderArrowSize": 8,
+      "showVariationsLabels": "none",
+      "showValueForVariation": "none",
+      "sortVariationsByLabel": true
+    }
+  },
+  "flex-layout.row#productBadges": {
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": ["summary-productBadges"]
+    },
+    "children": [
+      "flex-layout.col#productBadges",
+      "flex-layout.col#summary-add-to-list"
+    ]
+  },
+  "flex-layout.col#productBadges": {
+    "children": [
+      "product-price-savings",
+      "vtex.product-highlights@2.x:product-highlights#collection"
+    ]
+  },
+
+  "flex-layout.col#summary-add-to-list": {
+    "children": ["add-to-list-btn"],
+    "props": {
+      "blockClass": ["summary-add-to-list"]
+    }
+  }
+}

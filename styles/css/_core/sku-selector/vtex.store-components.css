@@ -1,0 +1,116 @@
+.valueWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frameAround {
+  display: none;
+}
+.skuSelectorItem {
+  margin: 0;
+  margin-right: 0.25rem;
+  margin-bottom: 0.5rem;
+  color: var(--text);
+}
+
+.skuSelectorInternalBox {
+  color: inherit;
+  border: 1px solid var(--border--muted-3);
+}
+.skuSelectorItem:hover .skuSelectorInternalBox,
+.skuSelectorItem--selected .skuSelectorInternalBox {
+  border-color: var(--secondary);
+}
+/* .skuSelectorItem--selected .skuSelectorInternalBox {
+  outline: 1px solid;
+} */
+
+.skuSelectorSubcontainer--tamanho
+  .skuSelectorItem--selected
+  .skuSelectorInternalBox {
+  background-color: var(--secondary);
+  color: #fff;
+}
+
+.skuSelectorSelectorImageValue {
+  font-weight: 700;
+  color: var(--text);
+}
+
+.skuSelectorItemTextValue {
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: inherit;
+}
+
+.skuSelectorName,
+.skuSelectorSelectorImageValue {
+  font-size: 0.75rem;
+}
+.skuSelectorNameSeparator {
+  font-size: 0;
+  padding: 0.1rem;
+}
+
+.skuSelectorTextContainer {
+  margin-bottom: 0.75rem;
+}
+
+.skuSelectorSubcontainer {
+  margin-bottom: 0;
+}
+
+:global(.vtex-product-summary-2-x-SKUSelectorContainer)
+  .skuSelectorSubcontainer {
+  margin-bottom: 0;
+}
+
+.skuSelectorContainer {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.skuSelectorContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 0.75rem;
+}
+
+.diagonalCross {
+  content: '';
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  right: -4px;
+  top: -8px;
+  left: auto;
+  z-index: 5;
+  border: 1px solid var(--border--muted-3);
+  background: #fff
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='5.656' height='5.659' viewBox='0 0 5.656 5.659'%3E%3Cpath id='Union_6' data-name='Union 6' d='M2141.827,11139.537l-2.12,2.119-.707-.707,2.119-2.119-2.119-2.12.707-.707,2.12,2.119,2.122-2.122.707.707-2.122,2.123,2.122,2.122-.707.707Z' transform='translate(-2139 -11136)' fill='%23262626'/%3E%3C/svg%3E%0A")
+    center no-repeat;
+}
+
+.skuSelectorOptionsList {
+  margin-left: 0;
+}
+.skuSelectorSubcontainer--cor .skuSelectorOptionsList {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 0.5rem;
+  padding-top: 0.5rem;
+}
+.skuSelectorSubcontainer--cor .skuSelectorItem {
+  flex-shrink: 0;
+  max-width: 26%;
+  height: auto;
+  aspect-ratio: 1;
+}
+@media (min-width: 1024px) {
+  .skuSelectorSubcontainer--cor .skuSelectorItem {
+    max-width: 18%;
+  }
+}

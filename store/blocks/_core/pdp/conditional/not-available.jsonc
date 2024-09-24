@@ -1,0 +1,16 @@
+{
+  "flex-layout.col#product-not-available": {
+    "props": {
+      "blockClass": "product-not-available"
+    },
+    "children": ["flex-layout.row#availability"]
+  },
+
+  "flex-layout.row#availability": {
+    "props": {
+      "blockClass": "",
+      "marginTop": 7
+    },
+    "children": ["custom-avise-me"]
+  }
+}
