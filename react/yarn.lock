@@ -412,9 +412,9 @@ symbol-observable@^4.0.0:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-4.0.0.tgz#5b425f192279e87f2f9b937ac8540d1984b39205"
   integrity sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ==
 
-"tfddml.store@https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.11+build1727785888/public/@types/tfddml.store":
+"tfddml.store@https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.11+build1727787768/public/@types/tfddml.store":
   version "0.0.11"
-  resolved "https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.11+build1727785888/public/@types/tfddml.store#0d2b3b241662ec9e788c93693b44b4ee25fd9b17"
+  resolved "https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.11+build1727787768/public/@types/tfddml.store#ead3978817b2760c0a4996482b4b0b0a444fa37f"
 
 ts-invariant@^0.10.3:
   version "0.10.3"

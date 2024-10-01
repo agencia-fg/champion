@@ -14,7 +14,7 @@ const BuyButton: StorefrontFC<Props> = ({ skuItems }) => {
 
   const handleClick = async () => {
     const pixelEvent = {
-      event: 'cart',
+      event: 'cart' as 'cart',
       id: 'add-to-cart-button',
     }
 
