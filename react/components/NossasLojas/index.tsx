@@ -12,6 +12,7 @@ interface ILoja {
   email: string
   endereco: string
   horario: string
+  linkMaps: string
 }
 
 const formatWhatsapp = (str: string) => {
@@ -55,6 +56,13 @@ const NossasLojas: StorefrontFC<Props> = ({ items }) => {
           <p>{loja.endereco}</p>
           <h4>Horário de atendimento</h4>
           <p> {loja.horario} </p>
+          <a
+              className={style.linkGoogleMaps}
+              target="_blank"
+              href={loja.linkMaps}
+            >
+              Ver no maps
+            </a>
         </div>
       ))}
     </div>
@@ -104,6 +112,10 @@ NossasLojas.schema = {
             type: 'string',
             title: 'Horário de atendimento',
           },
+          linkMaps: {
+            type: 'string',
+            title: 'Maps',
+          }
         },
       },
     },

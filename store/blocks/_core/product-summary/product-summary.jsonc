@@ -2,12 +2,72 @@
   "product-summary.shelf": {
     "children": [
       "stack-layout#summary-stack",
+      "modal-trigger#quickview",
       "flex-layout.row#product-summary-name",
       "flex-layout.row#summary-price",
       "flex-layout.row#summary-product-installments",
-      "product-summary-sku-selector"
+      "flex-layout.row#flagLastItemSKU"
     ]
   },
+
+  "flex-layout.row#flagLastItemSKU": {
+    "children": ["flagLastItemSKU"],
+    "props": {
+      "blockClass": ["flagLastItemSKU"]
+    }
+  },
+
+ "modal-trigger#quickview": {
+  "props":{
+    "blockClass": ["click-modal-quickview"]
+  },
+   "children": ["image#iconAddtoCart", "modal-layout#quickview"]
+ },
+
+ "image#iconAddtoCart": {
+    "props": {
+      "src": "assets/iconAddToCart.svg",
+      "maxHeight": 35
+    }
+  },
+
+ "modal-layout#quickview": {
+  "props":{
+    "blockClass": ["quickview-product-summary"]
+  },
+   "children": [
+      "flex-layout.col#quickview-group"
+   ]
+ },
+
+ "flex-layout.col#quickview-group": {
+    "props": {
+      "blockClass": ["flex-layout-quickview"]
+    },
+    "children": ["flex-layout.row#quickview-image","flex-layout.row#quickview-infoproduct"]
+  },
+
+  "flex-layout.row#quickview-image": {
+    "props": {
+      "blockClass": ["quickview-image"]
+    },
+    "children": ["product-images"]
+  },
+
+  "flex-layout.row#quickview-infoproduct": {
+    "props": {
+      "blockClass": ["quickview-info-product"]
+    },
+    "children": [
+      "flex-layout.row#product-summary-name",
+      "flex-layout.row#summary-price",
+      "flex-layout.row#summary-product-installments",
+      "product-summary-sku-selector",
+      "flex-layout.row#tabela-de-medidas",
+      "flex-layout.row#buy-button"
+    ]
+  },
+
   "product-summary.shelf#buy-together": {
     "children": [
       "stack-layout#summary-stack",
@@ -121,18 +181,7 @@
     }
   },
 
-  "product-summary-sku-selector": {
-    "props": {
-      "variationsSpacing": 3,
-      "showValueNameForImageVariation": true,
-      "thumbnailImage": ["cor"],
-      "displayMode": "select",
-      "sliderArrowSize": 8,
-      "showVariationsLabels": "none",
-      "showValueForVariation": "none",
-      "sortVariationsByLabel": true
-    }
-  },
+  
   "flex-layout.row#productBadges": {
     "props": {
       "preserveLayoutOnMobile": true,
@@ -156,4 +205,6 @@
       "blockClass": ["summary-add-to-list"]
     }
   }
+
+ 
 }

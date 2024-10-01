@@ -1,7 +1,7 @@
 {
   "flex-layout.row#search-header": {
     "title": "Header de categoria",
-    "children": ["flex-layout.col#search-header"],
+    "children": ["flex-layout.col#search-header-banner"],
     "props": {
       "blockClass": ["search-header"],
       "paddingTop": 6,
@@ -23,6 +23,43 @@
         "desktop": 6
       },
       "blockClass": ["search-header"]
+    }
+  },
+
+  "flex-layout.col#search-header-banner":{
+    "children": [
+      "flex-layout.row#banner-cat",
+      "flex-layout.col#search-header"
+    ],
+    "props": {
+      "blockClass": ["search-banner-category"]
+    }
+  },
+
+  "flex-layout.row#banner-cat":{
+    "children":[
+      "image#rocket-image-desktop", "image#rocket-image-mobile"
+    ],
+    "props":{
+      "blockClass": ["banner-category-flex"]
+    }
+    } ,
+
+    "image#rocket-image-desktop": {
+      "title": "Banner Desktop - Categoria",
+      "props": {
+      "src": "",
+      "width":"100%",
+      "blockClass": ["banner-category-single-desktop"]
+    }
+  },
+  
+    "image#rocket-image-mobile": {
+      "title": "Banner Mobile - Categoria",
+      "props": {
+      "src": "",
+      "width":"100%",
+      "blockClass": ["banner-category-single-mobile"]
     }
   },
 

@@ -3,13 +3,13 @@
     "title": "Compre Junto",
     "children": ["custom-buy-together"],
     "props": {
-      "marginTop": 10,
       "blockClass": ["buy-together"]
     }
   },
 
   "rich-text#buy-together-title": {
     "props": {
+      "marginTop": 10,
       "textAlignment": "CENTER",
       "textPosition": "CENTER",
       "blockClass": ["shelfTitle"],

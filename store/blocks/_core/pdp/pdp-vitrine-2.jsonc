@@ -6,7 +6,7 @@
         "desktop": false,
         "mobile": true
       },
-      "marginTop": 10,
+      "marginTop": 5,
       "paddingTop": 5
     },
     "children": ["flex-layout.col#pdp-vitrine-2"]

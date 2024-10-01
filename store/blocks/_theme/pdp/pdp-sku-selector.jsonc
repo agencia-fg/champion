@@ -10,7 +10,8 @@
       "hideImpossibleCombinations": false,
       "imageHeight": 64,
       "imageWidth": 64,
-      "sortVariationsByLabel": true
+      "sortVariationsByLabel": true,
+      "maxItems": 30
     }
   }
 }

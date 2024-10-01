@@ -34,7 +34,7 @@
   "flex-layout.row#reviews": {
     "title": "Reviews",
     "props": {
-      "marginTop": 10,
+      "marginTop": 8,
       "blockClass": ["bgWhite"]
     },
     "children": ["flex-layout.col#reviews"]

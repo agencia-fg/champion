@@ -45,5 +45,8 @@
   },
   "tag-h1": {
     "component": "TagH1"
+  },
+  "flagLastItemSKU": {
+    "component": "flagLastItemSKU"
   }
 }

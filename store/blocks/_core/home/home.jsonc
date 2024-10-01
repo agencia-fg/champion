@@ -10,7 +10,18 @@
       "optional-block#home-vitrine-1",
       "optional-block#home-banners-3",
       "optional-block#home-vitrine-2",
-      "optional-block#home-vitrine-3"
+      "optional-block#home-vitrine-3",
+      "list-context.product-list"
     ]
-  }
+  },
+   "list-context.product-list": {
+     "blocks": ["product-summary.shelf"],
+     "children": ["slider-layout"]
+   },
+   "product-summary.shelf": {
+     "children": [
+       "product-summary-name",
+       "product-selling-price"
+     ]
+   }
 }

@@ -21,7 +21,7 @@
     "title": "Resultado de busca",
     "children": [
       "flex-layout.row#search-header",
-      "flex-layout.row#search-result"
+      "flex-layout.row#search-result"   
     ],
     "props": {
       "pagination": "show-more",
@@ -51,5 +51,131 @@
       "flex-layout.col#search-filter--desktop",
       "flex-layout.col#search-content"
     ]
+  },
+  "flex-layout.row#search-result-description": {
+		"props": {
+			"bodyClass": "search-result-description",
+      "blockClass": ["search-result-description"]
+		},
+
+		"children": ["flex-layout.row#search-result-description-center"]
+	},
+
+	"flex-layout.row#search-result-description-center": {
+		"props": {
+			"bodyClass": "search-result-description-center",
+      "blockClass": ["search-result-description-center"]
+		},
+
+		"children": [
+      "flex-layout.row#links-categoria-footer",
+			"rich-text#search-result-description-title",
+			"rich-text#search-result-description-description"
+		]
+	},
+
+	"rich-text#search-result-description-title": {
+		"title": "Busca - Título SEO",
+		"props": {
+			"text": "",
+			"blockClass": ["text", "title", "description", "text-seo" ,"search-result-description-title"]
+		}
+	},
+
+	"rich-text#search-result-description-description": {
+		"title": "Busca - Descrição SEO",
+		"props": {
+			"text": "",
+			"blockClass": ["text", "description", "description-seo", "search-result-description-description-text"]
+		}
+	},
+
+	"flex-layout.row#links-categoria-footer": {
+		"props": {
+      "blockClass": ["links-categoria-footer"]
+		},
+		"children": [
+      "rich-text#links-categoria-title",
+      "flex-layout.row#links-categoria-grid"
+		]
+	},
+
+  "rich-text#links-categoria-title": {
+		"title": "Voce pode gostar",
+		"props": {
+			"text": "Voce pode gostar",
+			"blockClass": ["search-result-description-description-text"]
+		}
+	},
+
+  "flex-layout.row#links-categoria-grid": {
+		"props": {
+      "blockClass": ["links-categoria-grid"]
+		},
+		"children": [
+      "link#link-categoria-button-7",
+      "link#link-categoria-button-6",
+      "link#link-categoria-button-5",
+      "link#link-categoria-button-4",
+      "link#link-categoria-button-3",
+      "link#link-categoria-button-2",
+      "link#link-categoria-button-1"
+		]
+	},
+
+  "link#link-categoria-button-1": {
+    "props": {
+      "href": "/",
+      "label": "lorem ipsum",
+      "blockClass": ["links-categoria-button"]
+    }
+  },
+
+  "link#link-categoria-button-2": {
+    "props": {
+      "href": "/",
+      "label": "lorem",
+      "blockClass": ["links-categoria-button"]
+    }
+  },
+
+  "link#link-categoria-button-3": {
+    "props": {
+      "href": "/",
+      "label": "lorem ipsum",
+      "blockClass": ["links-categoria-button"]
+    }
+  },
+
+  "link#link-categoria-button-4": {
+    "props": {
+      "href": "/",
+      "label": "lorem ipsum",
+      "blockClass": ["links-categoria-button"]
+    }
+  },
+
+  "link#link-categoria-button-5": {
+    "props": {
+      "href": "/",
+      "label": "ipsum",
+      "blockClass": ["links-categoria-button"]
+    }
+  },
+
+  "link#link-categoria-button-6": {
+    "props": {
+      "href": "/",
+      "label": "lorem ipsum",
+      "blockClass": ["links-categoria-button"]
+    }
+  },
+
+  "link#link-categoria-button-7": {
+    "props": {
+      "href": "/",
+      "label": "lorem",
+      "blockClass": ["links-categoria-button"]
+    }
   }
 }
