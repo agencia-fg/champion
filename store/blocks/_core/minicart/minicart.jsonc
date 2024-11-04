@@ -15,15 +15,21 @@
     },
     "children": ["minicart-base-content"]
   },
+
   "minicart-base-content": {
     "blocks": ["minicart-empty-state"],
     "children": [
+      "free-shipping",
       "minicart-product-list#custom",
       "flex-layout.row#minicart-footer"
     ]
   },
   "minicart-product-list#custom": {
     "blocks": ["product-list#custom"]
+  },
+
+  "free-shipping": {
+    "title":"Frete SUL"
   },
 
   "rich-text#minicart-default-empty-state": {

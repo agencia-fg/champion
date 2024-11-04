@@ -1,0 +1,36 @@
+.freeShippingBar{
+    height: 35px;
+    width: 100%; 
+    background-color: #F4F4F4;
+}
+.freeShippingItem p{
+    margin-bottom: 0;
+    position: absolute;
+    top: 19px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.freeShippingRange{
+    background-color: #64E092; 
+    max-width: calc(100% + 1px);
+    height: 35px; 
+    margin-top: -1px;       
+    margin-left: -1px; 
+    transition: width 1s; 
+}  
+
+.freeShippingItem .title{
+    font: 800 0.75em "Overpass", sans-serif;
+    text-transform: uppercase; 
+    margin-top: 1em;
+    display: block;
+} 
+
+.freeShippingItem{
+    position: relative;
+    margin-bottom: 40px;
+}

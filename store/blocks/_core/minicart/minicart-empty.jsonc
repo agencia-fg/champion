@@ -9,6 +9,7 @@
     "children": [
       "icon-cart#minicart-empty-state",
       "rich-text#minicart-custom-empty-state"
+
     ],
     "props": {
       "horizontalAlign": "center",

@@ -1,6 +1,7 @@
 {
   "product-list#custom": {
     "blocks": [
+
       "product-list-content-desktop#custom",
       "product-list-content-mobile#custom"
     ]

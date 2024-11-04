@@ -72,7 +72,8 @@
     "vtex.search-graphql": "0.x",
     "vtex.product-group-context": "0.x",
     "vtex.order-items": "0.x",
-    "vtex.pixel-manager": "1.x"
+    "vtex.pixel-manager": "1.x",
+    "vtex.render-runtime": "8.x"
   },
   "peerDependencies": {
     "vtex.wish-list": "1.x",

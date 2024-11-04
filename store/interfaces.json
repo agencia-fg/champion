@@ -48,5 +48,19 @@
   },
   "flagLastItemSKU": {
     "component": "flagLastItemSKU"
+  },
+  "free-shipping": {
+      "component": "FreeShipping"
+  },
+  "mosaico": {
+      "component": "Mosaico",
+      "composition": "children"
+  },
+  "mosaico-mobile": {
+      "component": "MosaicoMobile",
+      "composition": "children"
+  },
+  "ultimo-tamanho": {
+      "component": "UltimoTamanho"
   }
 }

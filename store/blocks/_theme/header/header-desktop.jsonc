@@ -4,7 +4,8 @@
     "children": [
       "sticky-layout#header-main-desktop",
       "modal-trigger#lgpd",
-      "link#whatsappFlutuante"
+      "link#whatsappFlutuante",
+      "rich-text#valorFrete"
     ]
   },
 
@@ -13,5 +14,12 @@
       "flex-layout.row#header-main-desktop--compact",
       "flex-layout.row#menu"
     ]
+  },
+
+  "rich-text#valorFrete": {
+    "title":"Valor frete",
+    "props": {
+      "blockClass": ["valor-do-frete"]
+    }
   }
 }

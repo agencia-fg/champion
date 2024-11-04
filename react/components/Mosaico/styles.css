@@ -1,0 +1,52 @@
+.geralContainer,
+.imageContainer {
+  max-width: 1320px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.imageWidth {
+  width: 50%;
+}
+
+.videoContainer {
+  width: 100%;
+  max-width: 1280px;
+  margin: 10px auto 0;
+  padding-right: 15px;
+}
+
+.videoIframe {
+  width: 100%;
+  border: 0;
+}
+
+.bloco_container {
+  display: flex;
+  height: 84vh;
+  min-height: 714px;
+  max-height: 974px;
+}
+
+.bloco1_Img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0;
+  gap: 10px;
+}
+
+
+.bloco1_Img div {
+  width: 100%;
+}
+
+
+.imagem1,
+.video1,
+.imagem2 {
+  height: 100%;
+  width: 100%;
+  display: block;
+}

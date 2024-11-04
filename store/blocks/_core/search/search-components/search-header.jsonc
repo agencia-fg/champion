@@ -48,7 +48,7 @@
     "image#rocket-image-desktop": {
       "title": "Banner Desktop - Categoria",
       "props": {
-      "src": "",
+      "src": "assets/banner-cat.jpg",
       "width":"100%",
       "blockClass": ["banner-category-single-desktop"]
     }

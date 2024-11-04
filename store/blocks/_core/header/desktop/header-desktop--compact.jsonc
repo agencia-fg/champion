@@ -69,8 +69,20 @@
 
   "search-bar": {
     "props": {
-      "placeholder": "Buscar por..."
-    }
+      "placeholder": "Buscar por...",
+      "displayMode": "search-button",
+      "autocompleteAlignment": "center",
+      "openAutocompleteOnFocus": true
+    },
+    "blocks": [
+        "autocomplete-result-list.v2"
+    ]
+  },
+
+  "autocomplete-result-list.v2": {
+      "blocks": [
+          "product-summary.shelf"
+      ]
   },
 
   "flex-layout.row#header-controls--compact": {

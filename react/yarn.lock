@@ -412,9 +412,9 @@ symbol-observable@^4.0.0:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-4.0.0.tgz#5b425f192279e87f2f9b937ac8540d1984b39205"
   integrity sha512-b19dMThMV4HVFynSAM1++gBHAbk2Tc/osgLIBZMKsyqh34jb2e8Os7T6ZW/Bt3pJFdBTd2JwAnAAEQV7rSNvcQ==
 
-"tfddml.store@https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.11+build1727787768/public/@types/tfddml.store":
-  version "0.0.11"
-  resolved "https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.11+build1727787768/public/@types/tfddml.store#ead3978817b2760c0a4996482b4b0b0a444fa37f"
+"tfddml.store@https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.16+build1727963176/public/@types/tfddml.store":
+  version "0.0.16"
+  resolved "https://workspacegeral1003424--tfddml.myvtex.com/_v/private/typings/linked/v1/tfddml.store@0.0.16+build1727963176/public/@types/tfddml.store#7394c0683ef5e70dd014fbf0ed6cbc257969ab6f"
 
 ts-invariant@^0.10.3:
   version "0.10.3"
@@ -593,9 +593,9 @@ typescript@3.9.7:
   version "2.90.1"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.product-summary@2.90.1/public/@types/vtex.product-summary#b2efb5e9543511f98da94d1814c0d6a6a6803feb"
 
-"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.8/public/@types/vtex.render-runtime":
-  version "8.134.8"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.8/public/@types/vtex.render-runtime#b54ce7a361a512237c57ae2ad254ba1958b22ef9"
+"vtex.render-runtime@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.11/public/@types/vtex.render-runtime":
+  version "8.134.11"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.render-runtime@8.134.11/public/@types/vtex.render-runtime#0e42a00ac9b26c34b5b18b7a080f7dc3a5ac9959"
 
 "vtex.responsive-layout@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.responsive-layout@0.1.4/public/@types/vtex.responsive-layout":
   version "0.1.4"
@@ -613,9 +613,9 @@ typescript@3.9.7:
   version "0.63.0"
   resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-graphql@0.63.0/public/@types/vtex.search-graphql#5ad9419b8c544b819216dae83864ecd7b40665ed"
 
-"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.133.0/public/@types/vtex.search-result":
-  version "3.133.0"
-  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.133.0/public/@types/vtex.search-result#7774d5f97869b082d7135dc2a3d0e5187c64e8a9"
+"vtex.search-result@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.133.1/public/@types/vtex.search-result":
+  version "3.133.1"
+  resolved "http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search-result@3.133.1/public/@types/vtex.search-result#25b96e385913a6464fb78bf3d6ed924d3b180e62"
 
 "vtex.search@http://vtex.vtexassets.com/_v/public/typings/v1/vtex.search@2.18.1/public/@types/vtex.search":
   version "2.18.1"

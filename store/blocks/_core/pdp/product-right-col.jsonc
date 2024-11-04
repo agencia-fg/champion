@@ -27,14 +27,19 @@
       "blockClass": ["pdp-selector"]
     }
   },
+  "flex-layout.row#ultimo-tamanho":{
+    "children": ["ultimo-tamanho"],
+    "props": {
+      "blockClass": ["ultimo-tamanho-disponivel"]
+    }
+  },
   "flex-layout.col#pdp-selector": {
-    "children": ["sku-selector", "flex-layout.row#tabela-de-medidas"],
+    "children": ["sku-selector", "flex-layout.row#tabela-de-medidas","flex-layout.row#ultimo-tamanho"],
     "props": {
       "rowGap": 0,
       "blockClass": ["pdp-selector"]
     }
   },
-
   "rich-text#tabela-medidas": {
     "props": {
       "blockClass": ["tabela-medidas"],

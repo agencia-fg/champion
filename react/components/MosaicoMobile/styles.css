@@ -1,0 +1,25 @@
+.bloco_slider_mobile :global(.lojamob-tema-0-x-paginationDotsContainer) {
+    display: none;
+}
+
+.bloco_slider_mobile :global(.lojamob-tema-0-x-sliderRightArrow),
+.bloco_slider_mobile :global(.lojamob-tema-0-x-sliderLeftArrow){
+    margin: 0;
+}
+
+.bloco_slider_mobile :global(.lojamob-tema-0-x-sliderRightArrow) :global(.lojamob-tema-0-x-caretIcon),
+.bloco_slider_mobile :global(.lojamob-tema-0-x-sliderLeftArrow) :global(.lojamob-tema-0-x-caretIcon) {
+    content: url();
+    display: block;
+    width: 47px;
+    height: 47px;
+    background-image: url('https://lojamob.vtexassets.com/assets/vtex/assets-builder/lojamob.tema/0.0.96/mobile-image-arrow___d6c707615e4a9bda8a4ec52f5e0fefce.png');
+    background-color: transparent;
+    color: transparent;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.bloco_slider_mobile :global(.lojamob-tema-0-x-sliderLeftArrow) :global(.lojamob-tema-0-x-caretIcon) {
+    transform: scaleX(-1);
+}

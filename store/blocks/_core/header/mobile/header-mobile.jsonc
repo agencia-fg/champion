@@ -28,7 +28,8 @@
   "flex-layout.col#header-mobile-main": {
     "children": [
       "flex-layout.row#header-mobile-main-1",
-      "flex-layout.row#search-mobile"
+      "flex-layout.row#search-mobile",
+      "rich-text#valorFrete"
     ],
     "props": {
       "blockClass": ["flex-layout.row#header-mobile-main"]
@@ -91,6 +92,13 @@
     "props": {
       "blockClass": "menu",
       "mobileMode": true
+    }
+  },
+
+  "rich-text#valorFrete": {
+    "title":"Valor frete",
+    "props": {
+      "blockClass": ["valor-do-frete"]
     }
   }
 }
