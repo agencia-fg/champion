@@ -39,6 +39,10 @@ function FreeShipping({ titleFrete, valueFrete }: PropsFreeShipping){
         ? `Faltam R$ ${RealNovo} para ganhar frete grátis`
         : "Parabéns, você ganhou frete grátis!";
 
+    const attention = totalValue >= valorFrete
+        ? `Verifique se você está na área de cobertura do frete grátis`
+        : '';
+
     return (      
         <div className={styles.freeShippingItem}> 
             <div className={styles.title}>{titleFrete}</div>
@@ -47,6 +51,7 @@ function FreeShipping({ titleFrete, valueFrete }: PropsFreeShipping){
                 </div>  
             </div>
             <p>{fretetexto}</p>
+            <span>{attention}</span>
         </div>
     );  
 }  

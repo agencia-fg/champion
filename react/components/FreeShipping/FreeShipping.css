@@ -14,6 +14,17 @@
     width: 100%;
     justify-content: center;
 }
+.freeShippingItem span{
+    margin-bottom: 0;
+    position: absolute;
+    top: 50px;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
 .freeShippingRange{
     background-color: #64E092; 
     max-width: calc(100% + 1px);

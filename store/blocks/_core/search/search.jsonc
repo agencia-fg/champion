@@ -127,56 +127,56 @@
 
   "link#link-categoria-button-1": {
     "props": {
-      "href": "/",
-      "label": "lorem ipsum",
+      "href": "/moletons",
+      "label": "Moletons",
       "blockClass": ["links-categoria-button"]
     }
   },
 
   "link#link-categoria-button-2": {
     "props": {
-      "href": "/",
-      "label": "lorem",
+      "href": "/camisetas",
+      "label": "Camisetas",
       "blockClass": ["links-categoria-button"]
     }
   },
 
   "link#link-categoria-button-3": {
     "props": {
-      "href": "/",
-      "label": "lorem ipsum",
+      "href": "/bones",
+      "label": "Bonés",
       "blockClass": ["links-categoria-button"]
     }
   },
 
   "link#link-categoria-button-4": {
     "props": {
-      "href": "/",
-      "label": "lorem ipsum",
+      "href": "/acessorios",
+      "label": "Acessórios",
       "blockClass": ["links-categoria-button"]
     }
   },
 
   "link#link-categoria-button-5": {
     "props": {
-      "href": "/",
-      "label": "ipsum",
+      "href": "/calcas",
+      "label": "Calças",
       "blockClass": ["links-categoria-button"]
     }
   },
 
   "link#link-categoria-button-6": {
     "props": {
-      "href": "/",
-      "label": "lorem ipsum",
+      "href": "/bermudas",
+      "label": "Bermudas",
       "blockClass": ["links-categoria-button"]
     }
   },
 
   "link#link-categoria-button-7": {
     "props": {
-      "href": "/",
-      "label": "lorem",
+      "href": "/jaquetas",
+      "label": "Jaquetas",
       "blockClass": ["links-categoria-button"]
     }
   }

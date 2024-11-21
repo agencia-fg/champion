@@ -631,6 +631,7 @@ display: none;
 
 .vtex-flex-layout-0-x-flexRow--tabela-de-medidas {
   margin-top: 35px;
+  min-height: 16px;
 }
 
 .vtex-flex-layout-0-x-flexRow--ultimo-tamanho-disponivel .lastSize{
