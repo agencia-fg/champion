@@ -17,21 +17,45 @@ const MenuItem: StorefrontFC = ({
 
   const classes = `${style.MenuItem} ${className || ''}`
 
+  
   if (!isMobile) {
-    return (
-      <Link className={classes} to={href}>
-        {showCaret ? (
-          <div className="flex items-center justify-between">
-            <h2>{children}</h2>
-            <div className="ml2 c-muted-2 flex">
-              <Icon id="nav-caret--right" size={10} />
+    console.log("href= ", href);
+
+    if (href == undefined) {
+      const normalizedChildren = typeof children === "string" ? children.toLowerCase() : children;
+    
+      return (
+        <Link className={classes} to={"/" + normalizedChildren}>
+          {showCaret ? (
+            <div className="flex items-center justify-between">
+              <h2>{children}</h2>
+              <div className="ml2 c-muted-2 flex">
+                <Icon id="nav-caret--right" size={10} />
+              </div>
             </div>
-          </div>
-        ) : (
-          <h2>{children}</h2>
-        )}
-      </Link>
-    )
+          ) : (
+            <h2>{children}</h2>
+          )}
+        </Link>
+      );
+    }else{
+      return (
+        <Link className={classes} to={href}>
+          {showCaret ? (
+            <div className="flex items-center justify-between">
+              <h2>{children}</h2>
+              <div className="ml2 c-muted-2 flex">
+                <Icon id="nav-caret--right" size={10} />
+              </div>
+            </div>
+          ) : (
+            <h2>{children}</h2>
+          )}
+        </Link>
+      )
+    }
+
+    
   }
 
   if (isMobile && !hasSub) {

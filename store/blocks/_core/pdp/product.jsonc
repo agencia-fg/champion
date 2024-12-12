@@ -75,7 +75,8 @@
 
   "flex-layout.row#product-image-mobile": {
     "children": [
-      "mosaico-mobile"
+      //"mosaico-mobile"
+      "product-images"
     ],
     "props": {
       "blockClass": [
