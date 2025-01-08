@@ -651,3 +651,8 @@ display: none;
 .vtex-store-components-3-x-skuSelectorItem.vtex-store-components-3-x-skuSelectorItem--pdp-sku-selector.vtex-store-components-3-x-skuSelectorItemImage.vtex-store-components-3-x-skuSelectorItemImage--pdp-sku-selector.vtex-store-components-3-x-unavailable.vtex-store-components-3-x-unavailable--pdp-sku-selector {
   display: none;
 }
+
+
+.vtex-store-components-3-x-skuSelectorSubcontainer--cor .vtex-store-components-3-x-skuSelectorItem.o-20 {
+  display: none;
+}
