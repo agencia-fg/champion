@@ -40,6 +40,7 @@
 
 .bloco1_Img div {
   width: 100%;
+  overflow: hidden;
 }
 
 
@@ -52,13 +53,14 @@
 }
 
 
-.zoomed {
+.zoomimgblock {
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.8);
+  transform: translate(-50%, -50%) scale(1.3);
   z-index: 1000;
   background: rgba(0, 0, 0, 0.8); /* Fundo escurecido */
+  overflow: hidden;
 }
 
 .overlay {

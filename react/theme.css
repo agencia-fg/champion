@@ -647,3 +647,7 @@ display: none;
 .vtex-rich-text-0-x-container--valor-do-frete {
   display: none !important;
 }
+
+.vtex-store-components-3-x-skuSelectorItem.vtex-store-components-3-x-skuSelectorItem--pdp-sku-selector.vtex-store-components-3-x-skuSelectorItemImage.vtex-store-components-3-x-skuSelectorItemImage--pdp-sku-selector.vtex-store-components-3-x-unavailable.vtex-store-components-3-x-unavailable--pdp-sku-selector {
+  display: none;
+}

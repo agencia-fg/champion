@@ -65,6 +65,13 @@
   height: 40px;
   font-weight: bold;
   border-radius: var(--borderRadius--large);
+  font-size: 0;
+}
+
+.minicartCheckoutButton :global(.vtex-button__label)::after {
+ content: "Finalizar Compra";
+ letter-spacing: var(--buttonLetterSpacing);
+ font-size: 0.75rem;
 }
 
 .childrenContainer,
