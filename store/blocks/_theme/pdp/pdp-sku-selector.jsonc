@@ -9,6 +9,7 @@
       "showValueForVariation": "all",
       "hideImpossibleCombinations": false,
       "hideUnavailableVariations": true,
+      "disableUnavailableSelectOptions": true,
       "imageHeight": 64,
       "imageWidth": 64,
       "sortVariationsByLabel": true,

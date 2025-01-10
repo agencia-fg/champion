@@ -133,9 +133,22 @@
 display: none;
 }
 
+.vtex-store-components-3-x-skuSelectorSubcontainer--tamanho .vtex-store-components-3-x-skuSelectorItem.o-20{
+  opacity: 1 !important;
+  overflow: hidden;
+}
+
+.vtex-store-components-3-x-skuSelectorItemImage--pdp-sku-selector.vtex-store-components-3-x-unavailable.vtex-store-components-3-x-unavailable--pdp-sku-selector {
+  opacity: 0.4;
+}
+
+.vtex-store-components-3-x-skuSelectorItemImage--pdp-sku-selector.vtex-store-components-3-x-unavailable.vtex-store-components-3-x-unavailable--pdp-sku-selector.vtex-store-components-3-x-skuSelectorItem--selected {
+  opacity: 1;
+}
+
+
 
 .vtex-store-components-3-x-skuSelectorItem.o-20 {
-  opacity: 1 !important;
   background: #fff;
   color: var(--text--muted);
   /* pointer-events: none; */
@@ -648,11 +661,12 @@ display: none;
   display: none !important;
 }
 
+/*
 .vtex-store-components-3-x-skuSelectorItem.vtex-store-components-3-x-skuSelectorItem--pdp-sku-selector.vtex-store-components-3-x-skuSelectorItemImage.vtex-store-components-3-x-skuSelectorItemImage--pdp-sku-selector.vtex-store-components-3-x-unavailable.vtex-store-components-3-x-unavailable--pdp-sku-selector {
   display: none;
 }
 
-
 .vtex-store-components-3-x-skuSelectorSubcontainer--cor .vtex-store-components-3-x-skuSelectorItem.o-20 {
   display: none;
 }
+  */
